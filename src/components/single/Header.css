@@ -1,0 +1,25 @@
+@font-face {
+	font-family: AritaSans;
+	src: url(../../fonts/aritaSansMedium.woff.ttf);
+}
+
+.Header > nav {
+	background-color: #665629;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Header > nav > a {
+	text-decoration: none;
+	text-align: center;
+	font-family: AritaSans, sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	color: #c9b134;
+	padding: 10px 30px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.Header > nav > a:hover {
+	background-color: #111;
+}
