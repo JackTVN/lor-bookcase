@@ -1,22 +1,26 @@
 @font-face {
-	font-family: AritaSans;
-	src: url(../../fonts/aritaSansMedium.woff.ttf);
+	font-family: Arita-buriM;
+	src: url(../../fonts/Arita-buriM.otf);
 }
 
 .Header > nav {
+	width: 100%;
 	background-color: #665629;
 	display: flex;
 	justify-content: space-around;
 }
 
 .Header > nav > a {
+	width: 20%;
 	text-decoration: none;
 	text-align: center;
-	font-family: AritaSans, sans-serif;
-	font-size: 16px;
+	text-shadow: 0px 0px 4px rgb(197, 197, 85);
+	font-family: Arita-buriM, sans-serif;
+	font-size: 20px;
+	font-size: 1.5vw;
 	font-weight: 900;
-	color: #c9b134;
-	padding: 10px 30px;
+	color: #e0c22a;
+	padding: 1vw 1vw;
 	transition: background-color 0.2s ease-in-out;
 }
 

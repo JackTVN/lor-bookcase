@@ -1,122 +1,136 @@
 import React from 'react';
-import './combat-pages.css';
-import cardList from '../../resources/info-source.js';
-import {levelImage} from '../../resources/info-source.js';
+import { useState, useEffect } from 'react';
+
+import SearchBar from '../single/SearchBar.js';
+import SelectBar from '../single/SelectBar.js';
+
+import { LoadPages } from '../single/Page.js';
+
+import './stylesheets/combat-pages.scss';
+import {cardList, pageImage} from '../../resources/info-source.js';
+import {levelImage, Icons} from '../../resources/image-icons.js';
 
 //import objetDartCardBase from '../../resources/combat-pages/rarity/objet-dart/other/objet-dart-base.svg';
 //import objetDartCardRange from '../../resources/combat-pages/rarity/objet-dart/type/melee.svg';
 //import pageBg from '../../resources/combat-pages/BG.svg';
-
-
-
-function Page(props) {
-	let nameColor;
-
-	switch(props.info.Rarity){
-		case "Paperback":
-			nameColor = "#338333"
-			break;
-		case "Hardcover":
-			nameColor = "#6291EC"
-			break;
-		case "Limited":
-			nameColor = "#670178"
-			break;
-		case "Objet D'art":
-			nameColor = "#ffff33"
-	}
-
-	return (
-		// Let's not touch image for now
-		//<div className="Page">
-		//	<img className="pageBg" src={pageBg} />
-		//	<img className="cardBase" src={objetDartCardBase} />
-		//	<img className="cardRange" src={objetDartCardRange} />
-		//</div>
-		<div id="Page" className="Page" style={{borderColor: nameColor}}>
-			<div id="first" className="first" style={{border: "3px solid " + nameColor}}>
-				<p id="PageName" className="PageName" style={{ color: nameColor}} > {props.info.Name} </p>
-				<p className="PageRangeCost" style={{ color: "orange"}} > {props.info.Range} &nbsp; | &nbsp; {props.info.Cost} </p>
-				{props.info.Desc.map(desc => <p className="PageDesc"> {desc} </p>)}
-			</div>
-			<div id="second" className="second" style={{border: "1px solid " + nameColor}}>
-				{props.info.Dices.map(dice => 
-					<p className="PageDice"> {dice.Roll[0]} &#8209; {dice.Roll[1]} &nbsp;|&nbsp; {dice.Type} &nbsp;|&nbsp; {dice.Desc}</p>
-				)}
-			</div>
-		</div>
-	);
-}
-
-class LoadCombatPages extends React.Component {
-	constructor(props){
-		super(props);
-		this.state = {
-			pages: [],
-		};
-	}
-
-	addIfFit = (value) => {
-		if (!this.state.pages.find(page => page.Name == value.Name) && value.Name.includes(this.props.search)){
-			this.state.pages.push(value);
-		}
-	}
-
-	render() {
-		cardList.forEach(this.addIfFit);
-
-		return(
-			this.state.pages.map(page => <li key={page.ID}> <Page info={page}/> </li>)
-		);
-	}
-}
 
 class CombatPages extends React.Component {
 	constructor(props) {
     	super(props);
     	this.state = {
     		search: '',
-    		level: 'all',
+			typing: false,
+    		typingTimeout: 0,
+    		level: 'All',
+    		pages: cardList.slice().sort(this.Compare),
+			loadLimit: 24,
     	};
 
     	this.handleChange = this.handleChange.bind(this);
+		this.handleScroll = this.handleScroll.bind(this);
+		this.compare = this.compare.bind(this);
+		this.reload = this.reload.bind(this);
   	}
+
+  	compare = (a,b) => {
+  		let va, vb;
+
+  		switch(a.Level){ case "Canard": va = 0; break; case "Urban Myth": va = 1; break; case "Urban Legend": va = 2; break;
+  		case "Urban Plague": va = 3; break; case "Urban Nightmare": va = 4; break; case "Star of the City": va = 5; break; case "Impuritas Civitatis": va = 6; break;
+  		}
+  		switch(b.Level){ case "Canard": vb = 0; break; case "Urban Myth": vb = 1; break; case "Urban Legend": vb = 2; break;
+  		case "Urban Plague": vb = 3; break; case "Urban Nightmare": vb = 4; break; case "Star of the City": vb = 5; break; case "Impuritas Civitatis": vb = 6; break;
+  		}
+
+  		if (va < vb){ return -1; } 
+  		if (va > vb){ return 1; }
+
+  		switch(a.Rarity){ case "Paperback": va = 0; break; case "Hardcover": va = 1; break;
+  		case "Limited": va = 2; break; case "Objet D'art": va = 3;
+  		}
+  		switch(b.Rarity){ case "Paperback": vb = 0; break; case "Hardcover": vb = 1; break;
+  		case "Limited": vb = 2; break; case "Objet D'art": vb = 3;
+  		}
+
+  		if (va < vb){ return -1; } 
+  		if (va > vb){ return 1; }
+		  
+  		if (a.Cost < b.Cost){ return -1; } 
+  		if (a.Cost > b.Cost){ return 1; }
+
+  		return 0;
+  	}
+
+  	reload() {
+		const tempPages = cardList.slice();
+
+		let i = 0;
+		
+		while (i < tempPages.length){
+			if ( (this.state.search != null && !tempPages[i].Name.toLowerCase().includes( this.state.search.toLowerCase() ) )
+				 || (this.state.level != "All" && tempPages[i].Level != this.state.level) ){
+					tempPages.splice(i, 1);
+			} else {
+				i++;
+			}
+		}
+
+		tempPages.sort(this.compare)
+
+		this.setState({
+			pages: tempPages,
+		});
+	}
 
   	handleChange(event) {
-    	this.setState({[event.target.name]: event.target.value});
+		if (this.state.typingTimeout) {
+			clearTimeout(this.state.typingTimeout);
+		}
+
+    	this.setState({
+    		[event.target.name]: event.target.value, 
+			typing: false,
+			loadLimit: 18,
+			typingTimeout: setTimeout(
+    			() => this.reload(), 200
+			)
+		});
   	}
 
+	handleScroll(){
+		if(document.documentElement.scrollTop + window.innerHeight + 300 > document.documentElement.scrollHeight)
+    	{
+			let newLimit = this.state.loadLimit + 24;
+			if (newLimit > this.state.pages.length) { newLimit = this.state.pages.length }
+        	this.setState({loadLimit: newLimit});
+    	}
+	}
+
+	componentDidMount(){
+		window.addEventListener('scroll', this.handleScroll);
+	}
+
+	componentWillUnmount(){
+		window.removeEventListener('scroll', this.handleScroll);
+
+	}
+
 	render() {
+		let levelName = ["All", "Canard", "Urban Myth", "Urban Legend", "Urban Plague", "Urban Nightmare",
+						"Star of the City", "Impuritas Civitatis"]
 	return (
-		<div className="Main">
+		<div id="combatPages">
 			<h1> Combat Pages </h1>
-			<img src={levelImage.canard}></img>
-			<img src={levelImage.urbanMyth}></img>
-			<img src={levelImage.urbanLegend}></img>
-			<img src={levelImage.urbanPlague}></img>
-			<img src={levelImage.urbanNightmare}></img>
-			<img src={levelImage.star}></img>
-			<br />
-			<input autocomplete="off" name="search" type="text" value={this.state.search} onChange={this.handleChange} placeholder="Search.." /><br /><br />
-			<div className="settingRow">
-				<select name="level" value={this.state.level} onChange={this.handleChange}>
-					<option value="all">All</option>
-					<option value="canard">Canard</option>
-	            	<option value="urban-myth">Urban Myth</option>
-	            	<option value="urban-legend">Urban Legend</option>
-	            	<option value="urban-plague">Urban Plague</option>
-	            	<option value="urban-nightmare">Urban Nightmare</option>
-	            	<option value="star-of-the-city">Star of the City</option>
-	            	<option value="impuritas-civitatis">Impuritas Civitatis</option>
-				</select>
-				<button className="advancedSetting">Advance</button>
-			</div>
-			<br />
-			<br />
-			<br />
-			<div className= "pageList">
-				<ul className="List">
-					<LoadCombatPages search={this.state.search} level={this.state.level} />
+			<SearchBar search={this.state.search} setSearch={this.handleChange} />
+			<SelectBar name="level" option={levelName} current={this.state.level} handleChange={this.handleChange}/>
+			<button id="advancedSetting">Advanced</button>
+
+			<div id= "pageList" style={{ marginTop: "12vh" }}>
+				<div id="Note"> 
+					<p> Current Patch: 1.0.4.2a_wrongCardFixed2 </p>
+				</div>
+				<ul id="List">
+					<LoadPages pages={this.state.pages} limit={this.state.loadLimit}/>
 				</ul>
 			</div>
 		</div>

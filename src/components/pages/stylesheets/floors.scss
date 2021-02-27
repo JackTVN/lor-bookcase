@@ -1,0 +1,158 @@
+@font-face {
+	font-family: Arita-buriM;
+	src: url(../../../fonts/Arita-buriM.otf);
+}
+
+$font-list: Arita-buriM, sans-serif;
+
+html {
+	background-color: #362113;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin DefaultStyle($special){
+	background-color: #362113;
+	border: 0.7vmin solid #83502e;
+	border-radius: 1vmin;
+
+	color: #CE8B54;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 2.5vmin;
+	letter-spacing: 0.3vmin;
+
+	margin: 1% 0;
+
+	height: 6vmin;
+
+	transition: border-color 0.2s ease-in-out;
+
+	&:focus { border: 0.7vmin solid #ce8b54; outline: none; }
+
+	@if $special == "text" {
+		padding: 0 2vmin;
+		width: 90%;
+	}
+
+	@if $special == "select" {
+		display: inline;
+		float: left;
+		width: 50%;
+		margin-left: calc(5% - 3vmin);
+		&option { background-color: #362113; color: #CE8B54; }
+	}
+}
+
+#Floors {
+	text-align: center;
+	font-family: $font-list;
+
+	h1 { font-size: 10vmin; color: yellow; filter: blur(0.12vmin); 
+		letter-spacing: 1vmin; text-shadow: 0.5vmin 0.5vmin 1vmin #fcfc5e; 
+		font-weight: 600
+	}
+
+	input[type=text] { @include DefaultStyle("text"); }
+
+	select { @include DefaultStyle("select"); }
+
+	#Note { 
+		text-align: center; 
+		color: gray;
+		font-weight: 900;
+		font-size:2.5vmin;
+	}
+		
+	#EmoPagesList { 
+		list-style-type: none; 
+		padding-left: 0; 
+		margin: 1%;
+
+		li {
+			float: left;
+			width: 33%;
+			min-width: 33%;
+		}
+	}
+
+	#emoPage {
+		height: inherit;
+		display: flex;
+	
+		background-image: linear-gradient(rgba(0,0,0, 0.5) 50%, transparent);
+		background-color: rgba(0,0,0, 0.3);
+	
+		text-shadow: 0px 0px 3px #ffff9c;
+		box-shadow: 2px 2px 4px rgba(0,0,0, 0.3);
+	
+		border-style: solid;
+		border-width: 0.3vw 0 0 0.3vw;
+		border-radius: 9px;
+	
+		#first {
+			display: flex;
+			flex-direction: column;
+			flex: 0 0 40%;
+	
+			background-image: linear-gradient(to left, transparent 5%, rgba(0,0,0, 0.3));
+	
+			text-align: center;
+	
+			#emoPageName {
+				display:flex;
+				align-items: center;
+				justify-content: center;
+	
+				flex: 0 0 30%;
+	
+				line-height: 115%;
+				
+				padding: 0 2%;
+				font-size: 140%;
+				font-weight: 1000;
+				letter-spacing: 2px;
+			}
+	
+			#emoPageImage {
+				height: auto;
+				width: 100%;
+				z-index: 2;
+				border-style: solid;
+				border-width: 0.2vw 0 0.2vw 0;
+				border-radius: 0.2vw;
+			}
+	
+			#emoPageFlavorText {
+				flex: 0 0 6%;
+				margin: 10% 0;
+				color: orange; 
+				font-size: 80%;
+				line-height: 150%;
+				font-weight: 900;
+				text-shadow: 1px 1px 4px orange;
+			}
+		}
+	
+		#second {
+			border-style: solid;
+			border-width: 0 0 0 0.1vw;
+			border-radius: 0.2vw;
+	
+			font-size: 100%;
+	
+			color: white;
+	
+			flex: 1;
+			padding: 1% 3%;
+	
+			#emoPageDesc {
+				font-size: 90%;
+				line-height: 150%
+			}
+		}
+	}
+}
+
+
+
