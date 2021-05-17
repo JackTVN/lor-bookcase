@@ -67,7 +67,7 @@ class Passive extends React.Component {
 
 		return(
 			passiveInfo.map(passive => 
-				<li id="passiveIndi" key={passive.ID} style={{ borderColor: "rgb(" + passive.Color + ")", backgroundImage: "linear-gradient(to bottom right, rgba(" + passive.Color + ", 0.1), 1%, transparent)" }}> 
+				<li id="passiveIndi" key={passive.ID} style={{ borderColor: "rgb(" + passive.Color + ")", backgroundImage: "linear-gradient(to bottom right, rgba(" + passive.Color + ", 0.2), 1%, transparent)" }}> 
 					<p id="passiveCost" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.05vw 0.05vw 0.2vw " + "rgb(" + passive.Color + ")" }}> {passive.Cost} </p>
 					<p id="passiveName" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.05vw 0.05vw 0.2vw " + "rgb(" + passive.Color + ")" }}> {passive.Name} </p>
 					<ul id="passiveAbilitiesList">
@@ -195,7 +195,7 @@ export function LoadKeyPages(props) {
     });
 
 	return(
-		props.keyPages.map(keyPage => 
+		props.keyPages.slice(0, props.limit).map(keyPage => 
             <li id="mainList" key={keyPage.ID} style={{ fontSize: font, width: width, minWidth: width, height: height}}> 
 				<KeyPage info={keyPage}/> 
 			</li>

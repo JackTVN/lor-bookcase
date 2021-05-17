@@ -32,7 +32,7 @@ class CombatPages extends React.Component {
 			"Seven Association", "Blade Lineage",
 			"The Thumb", "The Reverberation", "Liu Association South Section 2", "Cane Office",
 			"The Index", "The Red Mist", "Liu Association South Section 1", "R Corp",
-			"Distorted Yan", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah",
+			"얀샋ㄷ요무", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah",
 			"Hana Association", "The Black Silence", "The Reverberation Ensemble", "Keter Realization", "The Reverberation Ensemble Distorted"],
 			faction: 'All',
 			loadLimit: 24,
@@ -85,7 +85,7 @@ class CombatPages extends React.Component {
 		let facNightmare = ["Sweepers", "Shi Association South Section 2", "The 8 o'Clock Circus", "Puppets", "Index Proselytes", "Smiling Faces", "The Crying Children", 
 							"WARP Cleanup Crew", "Seven Association", "Blade Lineage"];
 		let facStar = ["The Thumb", "Argalia & The Churches of Gear", "Liu Association South Section 2", "Cane Office", "The Index", "The Red Mist", "Liu Association South Section 1",
-						"R Corp", "Distorted Yan", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah"];
+						"R Corp", "얀샋ㄷ요무", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah"];
 		let facImpuritas = ["Hana Association", "The Black Silence", "The Reverberation Ensemble", "Keter Realization", "The Reverberation Ensemble Distorted"];
 
 		let facNew = ["All"];
