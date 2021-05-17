@@ -5775,11 +5775,6 @@ export const cardList = [
 			{
 				Roll: [4, 7],
 				Type: "Pierce",
-				Desc: "If there are no duplicates in the Combat Bookshelf, destroy the opponent's next die",
-			},
-			{
-				Roll: [4, 7],
-				Type: "Pierce",
 				Desc: "[On Hit] Inflict 1 Fragile next Scene",
 			},
 			{
