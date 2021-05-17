@@ -1,8 +1,9 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 
 import {pageImage} from '../../resources/info-source.js';
 import {Icons} from '../../resources/image-icons.js';
+
+import './Page.scss';
 
 export class Page extends React.Component {
 	constructor(props){
@@ -10,6 +11,7 @@ export class Page extends React.Component {
 		this.nColor = this.nColor.bind(this);
 		this.checkName = this.checkName.bind(this);
 	}
+
 	nColor() {
 		let nameColor;
 		switch(this.props.info.Rarity){
@@ -74,7 +76,7 @@ export class Page extends React.Component {
 
 export function LoadPages(props) {
 	const [width, setWidth] = React.useState("33%");
-	const [height, setHeight] = React.useState("25vw");
+	const [height, setHeight] = React.useState("28vw");
 	const [font, setFont] = React.useState("1vw");
 
 	React.useEffect(() => {
@@ -85,21 +87,17 @@ export function LoadPages(props) {
 				setFont("2.7vw");
 			} else if (window.innerWidth <= 1000){
 				setWidth("50%");
-				setHeight("37vw");
+				setHeight("43vw");
 				setFont("1.5vw");
 			} else if (window.innerWidth <= 1500){
 				setWidth("33%");
-				setHeight("25vw");
+				setHeight("28vw");
 				setFont("1vw");
-			} else if (window.innerWidth <= 1800){
+			} else {
 				setWidth("25%");
-				setHeight("19vw");
-				setFont("0.85vw");
-			} else if (window.innerWidth <= 2200){
-				setWidth("20%");
-				setHeight("15vw");
-				setFont("0.7vw");
-			} else { setWidth("16.6%"); setHeight("12vw"); setFont("0.55vw"); } 
+				setHeight("21vw");
+				setFont("0.75vw");
+			}
     	}
 
     	window.addEventListener('resize', handleResize);

@@ -1,0 +1,101 @@
+#emoPage {
+    height: inherit;
+    display: flex;
+
+    margin: 0 1%;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.2));
+    background-color: rgba(0,0,0, 0.3);
+
+    text-shadow: 0px 0px 2px #ffff9c;
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.3);
+
+    letter-spacing: 0.05vw;
+
+    border-style: solid;
+    border-width: 0.3vw 0 0 0.3vw;
+    border-radius: 0.5vw;		
+
+    #first {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 40%;
+
+        background-image: linear-gradient(to left, transparent 5%, rgba(0,0,0, 0.3));
+
+        text-align: center;
+
+        #emoPageLevel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 1;
+
+            font-size: 120%;
+            font-weight: 1000;
+            letter-spacing: 0;
+            line-height: 0;
+
+            border-style: solid;
+            border-width: 0 0 0.1vw 0;
+            border-radius: 0.1vw;
+        }
+
+        #emoPageName {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+
+            flex: 0 0 19.4%;
+
+            line-height: 115%;
+            
+            padding: 0 1%;
+            font-size: 110%;
+            font-weight: 1000;
+            letter-spacing: 0.1vw;
+        }
+
+        #emoPageImage {
+            height: auto;
+            width: 100%;
+            z-index: 2;
+            border-style: solid;
+            border-width: 0.2vw 0 0.2vw 0;
+        }
+
+        #emoPageFlavorText {
+            flex: 0 0 6%;
+            margin: 1% 3%;
+            color: rgb(209, 203, 203); 
+            font-size: 70%;
+            line-height: 150%;
+            font-weight: 900;
+            text-shadow: 0.05vw 0.05vw 0.2vw grey;
+            letter-spacing: 0vw; 
+        }
+    }
+
+    #second {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+
+        border-style: solid;
+        border-width: 0 0 0 0.2vw;
+        border-radius: 0.2vw;
+
+        font-size: 95%;
+        line-height: 150%;
+
+        color: white;
+
+        flex: 1 60%;
+        padding: 1% 3%;
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
