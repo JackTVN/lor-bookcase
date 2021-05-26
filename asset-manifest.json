@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.ce0220da.chunk.css",
-    "main.js": "./static/js/main.1232de5a.chunk.js",
-    "main.js.map": "./static/js/main.1232de5a.chunk.js.map",
+    "main.css": "./static/css/main.476582b6.chunk.css",
+    "main.js": "./static/js/main.efabfd1e.chunk.js",
+    "main.js.map": "./static/js/main.efabfd1e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.0d10f7cc.js",
     "runtime-main.js.map": "./static/js/runtime-main.0d10f7cc.js.map",
     "static/js/2.187fb051.chunk.js": "./static/js/2.187fb051.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a389ffd8.chunk.js": "./static/js/3.a389ffd8.chunk.js",
     "static/js/3.a389ffd8.chunk.js.map": "./static/js/3.a389ffd8.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ce0220da.chunk.css.map": "./static/css/main.ce0220da.chunk.css.map",
+    "static/css/main.476582b6.chunk.css.map": "./static/css/main.476582b6.chunk.css.map",
     "static/js/2.187fb051.chunk.js.LICENSE.txt": "./static/js/2.187fb051.chunk.js.LICENSE.txt",
     "static/media/333... 1973.667b6d2c.png": "./static/media/333... 1973.667b6d2c.png",
     "static/media/A Critical Moment.8dce840c.png": "./static/media/A Critical Moment.8dce840c.png",
@@ -609,7 +609,7 @@
   "entrypoints": [
     "static/js/runtime-main.0d10f7cc.js",
     "static/js/2.187fb051.chunk.js",
-    "static/css/main.ce0220da.chunk.css",
-    "static/js/main.1232de5a.chunk.js"
+    "static/css/main.476582b6.chunk.css",
+    "static/js/main.efabfd1e.chunk.js"
   ]
 }
