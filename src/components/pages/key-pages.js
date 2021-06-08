@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
+import {Helmet} from "react-helmet";
+
 import SearchBar from '../single/SearchBar.js';
 import SelectBar from '../single/SelectBar.js';
 
@@ -23,12 +25,12 @@ class KeyPages extends React.Component {
 			"Pierre's Bistro", "Streetlight Office", "Backstreets Butcher",
 			"Zwei Association South Section 6", "Stray Dogs", "Molar Office", "Grade 8 Fixers", "Grade 7 Fixers", "Axe Gang",
 			"The Carnival", "Full-Stop Office", "Dawn Office", "Gaze Office", "Kurokumo Clan", "The Musicians of Bremen", "Wedge Office", "Love Town", 
-			"Rusted Chains", "Workshop-affiliated Fixers",
+			"Rusted Chains", "Workshop-affiliated Fixers", "Jeong's Office",
 			"Sweepers", "Shi Association South Section 2", "The 8 o'Clock Circus", "Puppets", "Index Proselytes", "Smiling Faces", "The Crying Children", "WARP Cleanup Crew",
 			"Seven Association", "Blade Lineage",
 			"The Thumb", "The Reverberation", "Liu Association South Section 2", "Cane Office",
 			"The Index", "The Red Mist", "Liu Association South Section 1", "R Corp",
-			"얀샋ㄷ요무", "The Purple Tear", "Xiao & Miris", "Dong-hwan the Grade 1 Fixer",
+			"얀샋ㄷ요무", "The Purple Tear", "Xiao & Miris", "Dong-hwan the Grade 1 Fixer", "Mirae Life Insurance", "Leaflet Workshop", "Night Awls", "The Udjat", "Bayard",
 			"Hana Association", "The Black Silence", "The Reverberation Ensemble", "Keter Realization", "The Reverberation Ensemble Distorted"],
 			faction: 'All',
 			loadLimit: 18,
@@ -54,18 +56,18 @@ class KeyPages extends React.Component {
 		let facMyth = ["Library", "Pierre's Bistro", "Streetlight Office", "Backstreets Butcher"];
 		let facLegend = ["Zwei Association South Section 6", "Stray Dogs", "Molar Office", "Grade 8 Fixers", "Grade 7 Fixers", "Axe Gang"];
 		let facPlague = ["The Carnival", "Full-Stop Office", "Dawn Office", "Gaze Office", "Kurokumo Clan", "The Musicians of Bremen", "Wedge Office", "Love Town", 
-						"Rusted Chains", "Workshop-affiliated Fixers"];
+						"Rusted Chains", "Workshop-affiliated Fixers", "Jeong's Office"];
 		let facNightmare = ["Sweepers", "Shi Association South Section 2", "The 8 o'Clock Circus", "Puppets", "Index Proselytes", "Smiling Faces", "The Crying Children", 
 							"WARP Cleanup Crew", "Seven Association", "Blade Lineage"];
 		let facStar = ["The Thumb", "Argalia & The Churches of Gear", "Liu Association South Section 2", "Cane Office", "The Index", "The Red Mist", "Liu Association South Section 1",
-						"R Corp", "얀샋ㄷ요무", "The Purple Tear", "Xiao & Miris", "Dong-hwan the Grade 1 Fixer"];
+						"R Corp", "얀샋ㄷ요무", "The Purple Tear", "Xiao & Miris", "Dong-hwan the Grade 1 Fixer", "Mirae Life Insurance", "Leaflet Workshop", "Night Awls", "The Udjat", "Bayard"];
 		let facImpuritas = ["Hana Association", "The Reverberation Ensemble"];
 
 		let facNew = ["All"];
 
 		switch(this.state.level){
 			case "All":
-				facNew = facNew.concat(facCanard, ["Pierre's Bistro", "Streetlight Office"], facLegend,
+				facNew = facNew.concat(facCanard, ["Pierre's Bistro", "Streetlight Office", "Backstreets Butcher"], facLegend,
 				facPlague, facNightmare, facStar, facImpuritas);
 				break;
 			case "Canard": facNew = facNew.concat(facCanard); break;
@@ -89,7 +91,8 @@ class KeyPages extends React.Component {
 		let i = 0;
 		
 		while (i < tempPages.length){
-			if ( (this.state.search != null && !tempPages[i].Name.toLowerCase().includes( this.state.search.toLowerCase() ) )
+			if ( (tempPages[i].Obtainable != "True")
+				 || (this.state.search != null && !tempPages[i].Name.toLowerCase().includes(this.state.search.toLowerCase()) )
 				 || (this.state.level != "All" && tempPages[i].Level != this.state.level) 
 				 || (facChange != "All" && tempPages[i].Source != facChange)){
 					tempPages.splice(i, 1);
@@ -137,7 +140,6 @@ class KeyPages extends React.Component {
 
   componentWillUnmount(){
       window.removeEventListener('scroll', this.handleScroll);
-
   }
 
   render() {
@@ -146,19 +148,27 @@ class KeyPages extends React.Component {
 
     return (
         <div id="keyPages">
+			<Helmet>
+				<title>Lor Bookcase - Key Pages</title>
+				<meta name="keywords" content="lor, library of ruina, lor wiki, library of ruina wiki, key pages, project moon, projectmoon" data-react-helmet="true"/>
+			</Helmet>
+
             <h1> Key Pages </h1>
 
             <div id= "searchHelp">
 				<SearchBar search={this.state.search} setSearch={this.handleChange} />
-				<SelectBar id="selectLevel" name="level" option={levelName} current={this.state.level} handleChange={this.handleChange}/>
-				<SelectBar id="selectFaction" name="faction" option={this.state.factionOption} current={this.state.faction} handleChange={this.handleChange}/>
-				<button id="advancedSetting">Advanced</button>
+				<div id="lowerRowGridSearchHelp">
+					<SelectBar id="selectLevel" name="level" option={levelName} current={this.state.level} handleChange={this.handleChange}/>
+					<SelectBar id="selectFaction" name="faction" option={this.state.factionOption} current={this.state.faction} handleChange={this.handleChange}/>
+					<button id="advancedSetting">Advanced</button>
+				</div>
 			</div>
 
-            <div id= "keyPageList" style={{ marginTop: "12vh" }}>
-                <div id="Note"> 
-                    <p> Current Patch: 1.0.4.2a_wrongCardFixed2 </p>
-                </div>
+			<div id="Note"> 
+                    <p> Current Patch: 1.1.0.2a2 </p>
+            </div>
+
+            <div id= "keyPageList" style={{ marginTop: "2vh" }}>
                 <ul id="List">
                     <LoadKeyPages keyPages={this.state.keyPages} limit={this.state.loadLimit}/>
                 </ul>

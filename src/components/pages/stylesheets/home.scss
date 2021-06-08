@@ -1,0 +1,17 @@
+@font-face {
+	font-family: Arita-buriM;
+	src: url(../../../fonts/Arita-buriM.otf);
+}
+
+$font-list: Arita-buriM, sans-serif;
+
+html {
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+#Home {
+    text-align: center;
+	font-family: $font-list;
+    padding: 0 5% 0 5%;
+}

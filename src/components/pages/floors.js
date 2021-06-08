@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
+import {Helmet} from "react-helmet";
+
 import SearchBar from '../single/SearchBar.js';
 import SelectBar from '../single/SelectBar.js';
 
@@ -82,12 +84,19 @@ class Floors extends React.Component {
 
     return (
         <div id="Floors">
+            <Helmet>
+				<title>Lor Bookcase - Floors</title>
+                <meta name="keywords" content="lor, library of ruina, lor wiki, library of ruina wiki, abnornality pages, abno pages, project moon, projectmoon" />
+			</Helmet>
+
             <h1> The Library </h1>
             {/* <SearchBar search={this.state.search} setSearch={this.handleChange}/> */}
-            <SelectBar name="floor" option={floorName} current={this.state.floor} handleChange={this.handleChange}/>
+            <div id="SelectNoteTop">
+                <SelectBar name="floor" option={floorName} current={this.state.floor} handleChange={this.handleChange}/>
+                <div id="Note" > <p> Current Patch: 1.1.0.2a2 </p> </div>
+            </div>
 
-            <div id="Note" style={{ marginTop: "12vh" }} > <p> Current Patch: 1.0.4.2a_wrongCardFixed2 </p> </div>
-            <ul id="EmoPagesList">
+            <ul id="EmoPagesList" style={{ marginTop: "4vh" }}>
                 <LoadEmoPages abnormality={this.state.abnormality} color={this.state.color}/>
             </ul>
             <br /><br />

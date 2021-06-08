@@ -50,16 +50,16 @@ export class Page extends React.Component {
 			else { dice.Color = "#fe5c5c"; }
 		});
 		return (
-			<div id="Page" className="Page" style={{borderColor: nameColor}}>
-				<div id="first" className="first" style={{borderColor: nameColor}}>
+			<div id="Page" className="Page" style={{borderImage: "linear-gradient(to bottom right, " + nameColor + " 5%, transparent) 30"}}>
+				<div id="first" className="first" style={{borderImage: "linear-gradient(" + nameColor + " 5%, transparent) 30"}}>
 					<div id="pageName" style={{ textShadow: "1px 1px 3px " + nameColor, color: nameColor}}> <p> {this.props.info.Name} </p> </div>
-					<img id="pageImage" src={pageImage[SN + this.props.info.Name.replace(/[^0-9a-zA-ZáàÀāèěìíīúⅠⅡⅢⅣ ]|\s/g, "")]} 
-						style={{borderColor: nameColor}} alt={SN + this.props.info.Name.replace(/[^0-9a-zA-ZáàÀāèěìíīúⅠⅡⅢⅣ ]|\s/g, "")}>
+					<img id="pageImage" src={ this.props.info.Source == "aaaaaa" ? Icons.Bug : pageImage[SN + this.props.info.Name.replace(/[^0-9a-zA-ZáàÀāèěìíīúⅠⅡⅢⅣ ]|\s/g, "")]} 
+						style={{borderImage: "linear-gradient(to bottom right, " + nameColor + " 30%, transparent) 30"}} alt={SN + this.props.info.Name.replace(/[^0-9a-zA-ZáàÀāèěìíīúⅠⅡⅢⅣ ]|\s/g, "")}>
 					</img>
 					<p id="pageRange" > {this.props.info.Range} </p>
 					<p id="pageCost" > {this.props.info.Cost} </p>
 				</div>
-				<div id="second" className="second" style={{borderColor: nameColor}}>
+				<div id="second" className="second" style={{borderImage: "linear-gradient(" + nameColor + " 5%, transparent) 30"}}>
 					{this.props.info.Desc.map((desc, index) => <p key={index} id="pageDesc"> {desc} </p>)}
 					{this.props.info.Dices.map((dice, index) => 
 						<div key={index} id="pageDice"> 
@@ -76,26 +76,26 @@ export class Page extends React.Component {
 
 export function LoadPages(props) {
 	const [width, setWidth] = React.useState("33%");
-	const [height, setHeight] = React.useState("28vw");
+	const [height, setHeight] = React.useState("26vw");
 	const [font, setFont] = React.useState("1vw");
 
 	React.useEffect(() => {
     	function handleResize() {
       		if (window.innerWidth <= 500){
 				setWidth("100%");
-				setHeight("74vw");
+				setHeight("72vw");
 				setFont("2.7vw");
 			} else if (window.innerWidth <= 1000){
 				setWidth("50%");
-				setHeight("43vw");
+				setHeight("36vw");
 				setFont("1.5vw");
 			} else if (window.innerWidth <= 1500){
 				setWidth("33%");
-				setHeight("28vw");
+				setHeight("26vw");
 				setFont("1vw");
 			} else {
 				setWidth("25%");
-				setHeight("21vw");
+				setHeight("19vw");
 				setFont("0.75vw");
 			}
     	}
@@ -110,6 +110,6 @@ export function LoadPages(props) {
     });
 
 	return(
-		props.pages.slice(0, props.limit).map(page => <li key={page.ID} style={{ fontSize: font, width: width, minWidth: width, height: height}}> <Page info={page}/> </li>)
+		props.pages.slice(0, props.limit).map((page, index) => <li key={index} style={{ fontSize: font, width: width, minWidth: width, height: height}}> <Page info={page}/> </li>)
 	);
 }

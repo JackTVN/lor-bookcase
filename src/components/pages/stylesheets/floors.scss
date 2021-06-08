@@ -6,29 +6,24 @@
 $font-list: Arita-buriM, sans-serif;
 
 html {
-	background-color: #362113;
 	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
 
 @mixin DefaultStyle($special){
 	background-color: #362113;
-	border: 0.7vmin solid #83502e;
-	border-radius: 1vmin;
+	border: 0.4vmin solid #83502e;
+	border-radius: 0.8vmin;
 
 	color: #CE8B54;
 	font-family: inherit;
 	font-weight: 500;
-	font-size: 2.5vmin;
-	letter-spacing: 0.3vmin;
-
-	margin: 1% 0;
-
-	height: 6vmin;
+	font-size: 2vmin;
+	letter-spacing: 0.2vmin;
 
 	transition: border-color 0.2s ease-in-out;
 
-	&:focus { border: 0.7vmin solid #ce8b54; outline: none; }
+	&:focus { border: 0.4vmin solid #ce8b54; outline: none; }
 
 	@if $special == "text" {
 		padding: 0 2vmin;
@@ -36,10 +31,6 @@ html {
 	}
 
 	@if $special == "select" {
-		display: inline;
-		float: left;
-		width: 50%;
-		margin-left: calc(5% - 3vmin);
 		&option { background-color: #362113; color: #CE8B54; }
 	}
 }
@@ -50,16 +41,27 @@ html {
 
 	h1 { font-size: 10vmin; color: yellow; filter: blur(0.06vmin); 
 		letter-spacing: 1vmin; text-shadow: 0.3vmin 0.3vmin 1vmin #fcfc5e; 
-		font-weight: 600
+		font-weight: 600;
 	}
 
 	input[type=text] { @include DefaultStyle("text"); }
 
 	select { @include DefaultStyle("select"); }
 
+	#SelectNoteTop {
+		display: grid;
+		grid-template-rows: 5vmin;
+		grid-template-columns: 50% 50%;
+		padding: 0 5% 0 5%;
+
+		row-gap: 5vmin;
+	}
+
 	#Note { 
+		place-self: center;
+
 		text-align: center; 
-		color: gray;
+		color: rgb(188, 188, 188);
 		font-weight: 900;
 		font-size:2.5vmin;
 	}

@@ -19,7 +19,7 @@ import MaliceImage from './abno-pages/emotion/image/Malice.png'
 import MetallicRingingImage from './abno-pages/emotion/image/Metallic Ringing.png';
 import ChainedWrathImage from './abno-pages/emotion/image/Chained Wrath.png';
 import ViolenceImage from './abno-pages/emotion/image/Violence.png';
-import ChargeImage from './abno-pages/emotion/image/Charge.png';
+import RechargeImage from './abno-pages/emotion/image/Recharge.png';
 import RepetitivePatternRecognitionImage from './abno-pages/emotion/image/Repetetive Pattern-Recognition.png';
 import CleanImage from './abno-pages/emotion/image/Clean.png';
 import MusicImage from './abno-pages/emotion/image/Music.png';
@@ -32,7 +32,7 @@ import RequestImage from './abno-pages/emotion/image/Request.png';
 import TheSeventhBulletImage from './abno-pages/emotion/image/The Seventh Bullet.png';
 import DarkFlameImage from './abno-pages/emotion/image/Dark Flame.png';
 
-import TodaysExpressionImage from './abno-pages/emotion/image/Today_s Expression.png';
+import LookoftheDayImage from './abno-pages/emotion/image/Look of the Day.png';
 import SocialDistancingImage from './abno-pages/emotion/image/Social Distancing.png';
 import ShynessImage from './abno-pages/emotion/image/Shyness.png';
 import GlitterImage from './abno-pages/emotion/image/Glitter.png';
@@ -55,7 +55,7 @@ import PebbleImage from './abno-pages/emotion/image/Pebble.png';
 import TeardropImage from './abno-pages/emotion/image/Teardrop.png';
 import ATokenofFriendshipImage from './abno-pages/emotion/image/A Token of Friendship.png';
 import ThornsImage from './abno-pages/emotion/image/Thorns.png';
-import PleasureImage from './abno-pages/emotion/image/Pleasure.png';
+import ElationImage from './abno-pages/emotion/image/Elation.png';
 import LaughingPowderImage from './abno-pages/emotion/image/Laughing Powder.png';
 import FlowerPetalsImage from './abno-pages/emotion/image/Flower Petals.png';
 import AutumnsPassingImage from './abno-pages/emotion/image/Autumn_s Passing.png';
@@ -69,7 +69,7 @@ import JusticeImage from './abno-pages/emotion/image/Justice.png';
 import HateImage from './abno-pages/emotion/image/Hate.png';
 import BlessingImage from './abno-pages/emotion/image/Blessing.png';
 import DespairImage from './abno-pages/emotion/image/Despair.png';
-import SwordSharpenedwithTearsImage from './abno-pages/emotion/image/Sword Sharpened with Tears.png';
+import BladesWhettedbyTeardropsImage from './abno-pages/emotion/image/Blades Whetted by Teardrops.png';
 import IntemperanceImage from './abno-pages/emotion/image/Intemperance.png';
 import RoadtoHappinessImage from './abno-pages/emotion/image/Road to Happiness.png';
 import GreedImage from './abno-pages/emotion/image/Greed.png';
@@ -78,11 +78,11 @@ import CompanionImage from './abno-pages/emotion/image/Companion.png';
 import AcidicSludgeImage from './abno-pages/emotion/image/Acidic Sludge.png';
 import MagicalGirlsImage from './abno-pages/emotion/image/Magical Girls.png';
 import VoidImage from './abno-pages/emotion/image/Void.png';
-import NihilImage from './abno-pages/emotion/image/Nihil.png';
+import NixImage from './abno-pages/emotion/image/Nix.png';
 
 import PreyImage from './abno-pages/emotion/image/Prey.png';
 import VengeanceImage from './abno-pages/emotion/image/Vengeance.png';
-import CrimsonScarImage from './abno-pages/emotion/image/Crimson Scar.png';
+import RuddledWeltsImage from './abno-pages/emotion/image/Ruddled Welts.png';
 import InstinctsImage from './abno-pages/emotion/image/Instincts.png';
 import ClawsofSavageryImage from './abno-pages/emotion/image/Claws of Savagery.png';
 import TheRoleoftheWolfImage from './abno-pages/emotion/image/The Role of the Wolf.png';
@@ -97,11 +97,11 @@ import HelloImage from './abno-pages/emotion/image/Hello.png';
 import ShellImage from './abno-pages/emotion/image/Shell.png';
 
 import TornOffWisdomImage from './abno-pages/emotion/image/Torn Off Wisdom.png';
-import HarvestImage from './abno-pages/emotion/image/Harvest.png';
+import GleaningImage from './abno-pages/emotion/image/Gleaning.png';
 import RakeImage from './abno-pages/emotion/image/Rake.png';
 import AWarmHeartImage from './abno-pages/emotion/image/A Warm Heart.png';
-import HeartImage from './abno-pages/emotion/image/Heart.png';
-import LumberImage from './abno-pages/emotion/image/Lumber.png';
+import CardiaeImage from './abno-pages/emotion/image/Cardiae.png';
+import TimberImage from './abno-pages/emotion/image/Timber.png';
 import CourageImage from './abno-pages/emotion/image/Courage.png';
 import HomeImage from './abno-pages/emotion/image/Home.png';
 import ARoadWalkedTogetherImage from './abno-pages/emotion/image/A Road Walked Together.png';
@@ -140,7 +140,7 @@ import ANostalgicSoundImage from './abno-pages/emotion/image/A Nostalgic Sound.p
 import ConfessionImage from './abno-pages/emotion/image/Confession.png';
 import BaptismImage from './abno-pages/emotion/image/Baptism.png';
 import AdventImage from './abno-pages/emotion/image/Advent.png';
-import GuardianImage from './abno-pages/emotion/image/Guardian.png';
+import SentinelImage from './abno-pages/emotion/image/Sentinel.png';
 import DivinePowerImage from './abno-pages/emotion/image/Divine Power.png';
 import ApostlesImage from './abno-pages/emotion/image/Apostles.png';
 
@@ -148,7 +148,7 @@ import BloodImage from './abno-pages/emotion/image/Blood.png';
 import ScarsImage from './abno-pages/emotion/image/Scars.png';
 import PaleHandsImage from './abno-pages/emotion/image/Pale Hands.png';
 import PulsationImage from './abno-pages/emotion/image/Pulsation.png';
-import AspirationImage from './abno-pages/emotion/image/Aspiration.png';
+import UrgingImage from './abno-pages/emotion/image/Urging.png';
 import FerventBeatsImage from './abno-pages/emotion/image/Fervent Beats.png';
 import LearningImage from './abno-pages/emotion/image/Learning.png';
 import LiesImage from './abno-pages/emotion/image/Lies.png';
@@ -156,9 +156,9 @@ import CuriosityImage from './abno-pages/emotion/image/Curiosity.png';
 import SwordofFrostImage from './abno-pages/emotion/image/Sword of Frost.png';
 import AKissImage from './abno-pages/emotion/image/A Kiss.png';
 import BlizzardImage from './abno-pages/emotion/image/Blizzard.png';
-
-
-
+import HammerandNailImage from './abno-pages/emotion/image/Hammer and Nail.png';
+import LeerImage from './abno-pages/emotion/image/Leer.png';
+import GuiltImage from './abno-pages/emotion/image/Guilt.png';
 
 export const EmoPageImage = {
     Ashes: AshesImage,
@@ -180,7 +180,7 @@ export const EmoPageImage = {
     MetallicRinging: MetallicRingingImage,
     ChainedWrath: ChainedWrathImage,
     Violence: ViolenceImage,
-    Charge: ChargeImage,
+    Recharge: RechargeImage,
     RepetitivePatternRecognition: RepetitivePatternRecognitionImage,
     Clean: CleanImage,
     Music: MusicImage,
@@ -193,7 +193,7 @@ export const EmoPageImage = {
     TheSeventhBullet: TheSeventhBulletImage,
     DarkFlame: DarkFlameImage,
 
-    TodaysExpression: TodaysExpressionImage,
+    LookoftheDay: LookoftheDayImage,
     SocialDistancing: SocialDistancingImage,
     Shyness: ShynessImage,
     Glitter: GlitterImage,
@@ -216,7 +216,7 @@ export const EmoPageImage = {
     Teardrop: TeardropImage,
     ATokenofFriendship: ATokenofFriendshipImage,
     Thorns: ThornsImage,
-    Pleasure: PleasureImage,
+    Elation: ElationImage,
     LaughingPowder: LaughingPowderImage,
     FlowerPetals: FlowerPetalsImage,
     AutumnsPassing: AutumnsPassingImage,
@@ -230,7 +230,7 @@ export const EmoPageImage = {
     Hate: HateImage,
     Blessing: BlessingImage,
     Despair: DespairImage,
-    SwordSharpenedwithTears: SwordSharpenedwithTearsImage,
+    BladesWhettedbyTeardrops: BladesWhettedbyTeardropsImage,
     Intemperance: IntemperanceImage,
     RoadtoHappiness: RoadtoHappinessImage,
     Greed: GreedImage,
@@ -239,11 +239,11 @@ export const EmoPageImage = {
     AcidicSludge: AcidicSludgeImage,
     MagicalGirls: MagicalGirlsImage,
     Void: VoidImage,
-    Nihil: NihilImage,
+    Nix: NixImage,
 
     Prey: PreyImage,
     Vengeance: VengeanceImage,
-    CrimsonScar: CrimsonScarImage,
+    RuddledWelts: RuddledWeltsImage,
     Instincts: InstinctsImage,
     ClawsofSavagery: ClawsofSavageryImage,
     TheRoleoftheWolf: TheRoleoftheWolfImage,
@@ -258,11 +258,11 @@ export const EmoPageImage = {
     Shell: ShellImage,
 
     TornOffWisdom: TornOffWisdomImage,
-    Harvest: HarvestImage,
+    Gleaning: GleaningImage,
     Rake: RakeImage,
     AWarmHeart: AWarmHeartImage,
-    Heart: HeartImage,
-    Lumber: LumberImage,
+    Cardiae: CardiaeImage,
+    Timber: TimberImage,
     Courage: CourageImage,
     Home: HomeImage,
     ARoadWalkedTogether: ARoadWalkedTogetherImage,
@@ -301,7 +301,7 @@ export const EmoPageImage = {
     Confession: ConfessionImage,
     Baptism: BaptismImage,
     Advent: AdventImage,
-    Guardian: GuardianImage,
+    Sentinel: SentinelImage,
     DivinePower: DivinePowerImage,
     Apostles: ApostlesImage,
 
@@ -309,7 +309,7 @@ export const EmoPageImage = {
     Scars: ScarsImage,
     PaleHands: PaleHandsImage,
     Pulsation: PulsationImage,
-    Aspiration: AspirationImage,
+    Urging: UrgingImage,
     FerventBeats: FerventBeatsImage,
     Learning: LearningImage,
     Lies: LiesImage,
@@ -317,6 +317,9 @@ export const EmoPageImage = {
     SwordofFrost: SwordofFrostImage,
     AKiss: AKissImage,
     Blizzard: BlizzardImage,
+    HammerandNail: HammerandNailImage,
+    Leer: LeerImage,
+    Guilt: GuiltImage,
 }
 
 export const EmoPageList = [
@@ -329,10 +332,10 @@ export const EmoPageList = [
                 Name: "Ashes",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "The charred body represents the child’s crumbled hope, while the ever blazing flame represents the obsession for affection.",
+                Flavor: "“The charred body represents the child’s crumbled hope, while the ever blazing flame represents the obsession for affection.”",
                 Desc: [
                     "[Single Ally]",
-                    "Upon taking a hit, inflict 1-3 Burn to the attacker, and gain a buff at a 40% chance next Scene: ‘Offensive dice inflict 1 Burn on hit’.",
+                    "When hit, inflict 1-3 Burn to the attacker, and gain a buff at a 40% chance next Scene: ‘Offensive dice inflict 1 Burn on hit’ (Does not stack).",
                 ]
             },
             {
@@ -343,7 +346,7 @@ export const EmoPageList = [
                 Flavor: "I am coming to you. You, who will be reduced to ash like me.",
                 Desc: [
                     "[All Allies]",
-                    "When a librarian's HP is at 20% or lower, deal 30% of the target's Max HP as damage (Max. 36) and inflict 1-3 Burn upon approaching them, then die.",
+                    "When a librarian's HP is at 20% or lower, deal 30% of the target's Max HP as damage (Max. 36) and inflict 1-3 Burn upon approaching them, then die.      ",
                 ]
             },
             {
@@ -354,8 +357,7 @@ export const EmoPageList = [
                 Flavor: "“Well, she’s like a ticking time bomb. No one can tell if she’s in a good mood or not.”",
                 Desc: [
                     "[Single Ally]",
-                    "The first two Combat pages the librarian uses after this Abnormality page is selected gain the 'Matchlight' status.",
-                    "Whenever the librarian uses a page with 'Matchlight', gain 1 'Ember'.",
+                    "The first two Combat pages the librarian uses after this Abnormality page is selected gain the 'Matchlight' status (Excludes [On Play] pages). Whenever the librarian uses a page with 'Matchlight', gain 1 'Ember'.",
                     "Pages with 'Matchlight' become stronger based on the amount of Ember; however, they have a 25% chance to damage the user if Ember is at 4 or higher.",
                 ]
             },
@@ -373,7 +375,7 @@ export const EmoPageList = [
                 Flavor: "Teddy was hugging someone tightly. Teddy loved hugs. But something was odd.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon winning a clash, deal bonus Stagger damage equal to the dice value at a 20% chance.",
+                    "Upon winning a clash, deal bonus Stagger damage equal to the dice's value at a 20% chance.",
                     "Clashing against the same target multiple times will increase the likelihood.",
                 ]
             },
@@ -385,8 +387,7 @@ export const EmoPageList = [
                 Flavor: "But, you see, Teddy never wanted to be separate from its owner ever again.",
                 Desc: [
                     "[Single Ally]",
-                    "The Combat page with the highest Cost in hand is chosen.",
-                    "Using pages with the same name will decrease the Cost of all copies of the page the character currently owns by 1.",
+                    "The Combat page with the highest Cost in hand is chosen (Excludes [On Play] pages). Using pages with the same name will decrease the Cost of every copy of that page the character currently owns by 1.",
                 ]
             },
             {
@@ -416,7 +417,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "For three Scenes, recover 15% of Max HP (Max. 18) at the end of the Scene.",
-                    "If the librarian takes 3 hits while this effect is active, lose 25% of the current HP (Max. 30) and lose this effect.",
+                    "If the librarian is hit 3 times while this effect is active, lose 25% of current HP (Max. 30) and lose this effect.",
                 ]
             },
             {
@@ -427,7 +428,7 @@ export const EmoPageList = [
                 Flavor: "The fairies were no more than carnivorous monsters, and their “protection” was their method to keep the meat fresh.",
                 Desc: [
                     "[Single Ally]",
-                    "When attacking a target who already took damage in the same Scene, deal 1-3 additional damage and recover 2-5 HP on hit.",
+                    "When attacking a target who already took damage on the same Scene, deal 1-3 additional damage and recover 2-5 HP on hit.",
                 ]
             },
             {
@@ -439,7 +440,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "All allies except the selected librarian lose 10 HP.",
-                    "The librarian recovers as much HP as the amount lost from this effect, and gains 3 Strength and 3 Haste this Scene.",
+                    "The librarian recovers as much HP as others lost from this effect, and gains 3 Strength and 3 Haste this Scene.",
                 ]
             },
         ]
@@ -456,18 +457,18 @@ export const EmoPageList = [
                 Flavor: "It has been confirmed that the spores carry drone eggs that hatch inside a living host.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon taking a hit, inflict 1-3 Bleed and Burn to the attacker.",
+                    "When hit, inflict 1-3 Burn and 1-3 Bleed to the attacker next Scene.",
                 ]
             },
             {
                 ID: "11",
                 Name: "Worker Bee",
-                State: "Breakdown",
+                State: "Awakening",
                 Level: "II",
                 Flavor: "They show only two forms of behavior: Delivering nutrients to the Queen, and proliferating.",
                 Desc: [
                     "[Single Ally]",
-                    "The enemy who dealt the most damage to the selected librarian is marked. Other allies deal 2-4 more damage to the marked foe with attacks.",
+                    "The enemy who dealt the most damage to the selected librarian is marked. Other allies deal 2-4 more damage to the marked foe with their attacks.",
                 ]
             },
             {
@@ -478,7 +479,8 @@ export const EmoPageList = [
                 Flavor: "The loyalty of bees is a naturally developed instinct. If we discover a way to draw forth that instinct, many things could change.",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, all allies gain Strength based on the amount of damage the librarian took in the previous Scene. (1 Strength per 8 damage)",
+                    "At the start of the Scene, all allies gain Strength based on the amount of damage the selected librarian received on the previous Scene.",
+                    "(1 Strength per 5 damage)",
                 ]
             },
         ]
@@ -507,7 +509,7 @@ export const EmoPageList = [
                 Flavor: "The apple that dropped from Snow White’s hand after a single bite could never be happy. The apple, full of loneliness and hatred towards the princess, waited for the day it would rot away and return to the earth.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon taking a hit, inflict 2-8 damage and 1-3 Bind to the attacker.",
+                    "When hit, inflict 2-8 damage and 1-3 Bind to the attacker.",
                     "If 3 Bind was inflicted at once, recover HP equal to the amount of damage dealt with this effect.",
                 ]
             },
@@ -519,7 +521,7 @@ export const EmoPageList = [
                 Flavor: "The inherent malice caused all life to crumble as soon as it bloomed.",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of this Scene, all enemies take damage inversely proportional to the amount of HP the librarian has left. (Min. 4, Max. 16; Less HP is more DMG)",
+                    "At the start of this Scene, all enemies take damage inversely proportional to the amount of HP the librarian has left. (Min. 5, Max. 30; Less HP is more DMG)",
                 ]
             },
         ]
@@ -535,8 +537,8 @@ export const EmoPageList = [
                 Level: "I",
                 Flavor: "“My head… turning into metal… folds in my brain, being flattened…”",
                 Desc: [
-                    "[Single Ally]",
-                    "Upon a successful Blunt attack, inflict 1 Bind and Paralysis.",
+                    "		[Single Ally]",
+                    "Upon a successful Blunt attack, inflict 1 Bind and Paralysis next Scene.",
                 ]
             },
             {
@@ -546,19 +548,19 @@ export const EmoPageList = [
                 Level: "II",
                 Flavor: "He wears a straitjacket, but is as free as any man. No amount of chains and restraints is enough to prevent him from committing violence.",
                 Desc: [
-                    "[Single Ally]",
+                    "		[Single Ally]",
                     "Blunt dice gain 1-3 Power. Speed is fixed at 1.",
                 ]
             },
             {
                 ID: "3",
                 Name: "Violence",
-                State: "Awakening",
+                State: "Breakdown",
                 Level: "I",
                 Flavor: "“What’s really pitiful is people like you dying to the likes of me.”",
                 Desc: [
                     "[Single Ally]",
-                    "Upon a successful Blunt attack, if the die rolled max. value, deal 2-5 bonus Stagger damage.",
+                    "Lower the minimum value of all dice by 1, and raise the maximum value by 3.",
                 ]
             },
         ]
@@ -569,13 +571,13 @@ export const EmoPageList = [
         EmoPage: [
             {
                 ID: "4",
-                Name: "Charge",
+                Name: "Recharge",
                 State: "Awakening",
-                Level: "I",
+                Level: "II",
                 Flavor: "However, the limbs were equipped with sharp instruments instead of cleaning supplies.",
                 Desc: [
                     "[Single Ally]",
-                    "After every three clash wins, restore 1 Light and gain 1-2 Haste next Scene.",
+                    "If the librarian has maximum Light at the start of a Scene, gain 1-2 Haste, and deal an additional 2-7 damage with attacks for that Scene.",
                 ]
             },
             {
@@ -586,7 +588,7 @@ export const EmoPageList = [
                 Flavor: "The day I was sent to a new home for the first time, I gave them the gift they wanted so earnestly.",
                 Desc: [
                     "		[Single Ally]",
-                    "After dealing damage greater than 15% of the target's Max HP with a Combat page, restore 1 Light and gain 1-2 Haste next Scene.",
+                    "After every three clash wins, restore 1 Light and gain 1-2 Haste next Scene.",
                 ]
             },
             {
@@ -597,7 +599,7 @@ export const EmoPageList = [
                 Flavor: "It recognizes a bad mood as a sign that the surroundings are dirty, and promptly enters cleaning mode.",
                 Desc: [
                     "[Single Ally]",
-                    "Offensive dice gain 1-2 Power against enemies with slower Speed.",
+                    "Offensive dice gain Power against enemies with slower Speed (+1 Power per point of difference, up to 3).",
                 ]
             },
         ]
@@ -610,11 +612,12 @@ export const EmoPageList = [
                 ID: "7",
                 Name: "Music",
                 State: "Breakdown",
-                Level: "II",
+                Level: "III",
                 Flavor: "But nothing could compare to the music it makes when it eats a human.",
                 Desc: [
                     "		  [All Characters]",
-                    "All characters deal 1-4 additional damage with attacks this Act. Characters suffer 1-4 additional Stagger damage upon taking a hit.",
+                    "All characters deal +4-8 damage with attacks this reception. They also suffer 4-8 additional Stagger damage upon taking a hit.",
+                    "Whenever an ally defeats an enemy, they recover 15 HP and Stagger Resist.",
                 ]
             },
             {
@@ -651,33 +654,34 @@ export const EmoPageList = [
                 ID: "10",
                 Name: "Eternal Rest",
                 State: "Awakening",
-                Level: "III",
+                Level: "II",
                 Flavor: "People believed that they would become beautiful beings with small wings when they died. It’s a silly story. Nonsensical too.",
                 Desc: [
                     "[Single Ally]",
-                    "Deal 2-7 additional damage against the enemy with the lowest current HP.",
+                    "Deal +2-7 damage and +2-5 Stagger damage against the enemy with the lowest current HP.",
                 ]
             },
             {
                 ID: "11",
                 Name: "Lament",
-                State: "Awakening",
-                Level: "II",
+                State: "Breakdown",
+                Level: "I",
                 Flavor: "They say the mourner with a huge luggage on his back had come to be a savior to all.",
                 Desc: [
                     "[Single Ally]",
-                    "Deal 2-7 additional Stagger damage against an enemy whose Stagger Resist is at 25% or lower.",
+                    "Deal +2-4 damage against an enemy with a status ailment.",
+                    "If the librarian has a status ailment at the start of the Scene, gain 1-2 Strength.",
                 ]
             },
             {
                 ID: "12",
                 Name: "Coffin",
                 State: "Awakening",
-                Level: "II",
+                Level: "III",
                 Flavor: "He’s carrying a coffin. A large coffin to pay tribute to the employees who have nowhere else to go. It is still too small to comfort those innocent sacrifices.",
                 Desc: [
                     "[Single Ally]",
-                    "On a successful attack against an enemy whose HP is at 50% or lower, Seal one Speed die of the target at a 40% chance.",
+                    "On hit against an enemy whose HP is at 50% or lower, Seal one Speed die of the target (Twice per Scene).",
                 ]
             },
         ]
@@ -689,24 +693,27 @@ export const EmoPageList = [
             {
                 ID: "13",
                 Name: "Request",
-                State: "Breakdown",
-                Level: "III",
+                State: "Awakening",
+                Level: "I",
                 Flavor: "Just as the Devil said, the bullets will puncture anything you please. Forever.",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Request' page to the hand: ‘Cost 1 - [Mass Individual] Roll Range: 7~11; target all characters; exhausts on use; [On Hit] Inflict 2 Fragile next Scene.’",
+                    "The first enemy the selected librarian attacks is marked a 'Requested Target'.",
+                    "Deal +3-5 damage against the Requested Target. ",
+                    "When the selected librarian defeats the Requested Target, fully recover Stagger Resist, and resolve twice as many books. Afterwards, a new Target can be chosen.",
                 ]
             },
             {
                 ID: "14",
                 Name: "The Seventh Bullet",
                 State: "Breakdown",
-                Level: "I",
+                Level: "II",
                 Flavor: "The Devil proposed a childish contract: The last bullet would puncture the head of his beloved. The moment he heard that, he sought and shot all the people he loved.",
                 Desc: [
                     "[Single Ally]",
-                    "Each time the librarian uses a page, Offensive dice deal 1 additional damage. (Up to 7)",
-                    "Every seventh page has a 50% chance to target random characters, including allies.",
+                    "Deal +1-7 damage with Offensive dice.",
+                    "When an Offensive die draws or loses in a clash, deal damage equal to the dice value to the opponent.",
+                    "Every 7th Melee or Ranged page targets random characters, including allies.",
                 ]
             },
             {
@@ -717,8 +724,8 @@ export const EmoPageList = [
                 Flavor: "One day, the marksman realized the Devil no longer followed him. He pondered why, then realized that his soul had already fallen to Hell from the beginning.",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, gain Strength and Protection proportional to the number of dead allies.",
-                    "If the librarian did not deal any damage with attacks by the end of the Scene, take 3-6 Stagger damage.",
+                    "For the duration of the reception, the 'Endured/Ineffective' resistances of all characters change to 'Weak/Fatal'.",
+                    "Gain 1-2 Haste and 2-4 Strength each Scene.",
                 ]
             },
         ]
@@ -729,13 +736,13 @@ export const EmoPageList = [
         EmoPage: [
             {
                 ID: "1",
-                Name: "Today’s Expression",
+                Name: "Look of the Day",
                 State: "Breakdown",
                 Level: "I",
                 Flavor: "One sunny day, just like that day they sincerely dried the laundry, they dried their own skin.",
                 Desc: [
                     "[Single Ally]",
-                    "The face constantly shifts.",
+                    "The librarian's face constantly shifts.",
                     "Dice gain different amounts of Power depending on the current face. (Min. -2, Max. +2)",
                     "Anger is fierce.",
                 ]
@@ -760,7 +767,7 @@ export const EmoPageList = [
                 Flavor: "The inability to show one’s face is perhaps a form of shyness. When throbbing emotions surge up from time to time, it’s best to simply cover the face.",
                 Desc: [
                     "[Single Ally]",
-                    "When using a page, all Block dice on that page gain Power equal to the number of Defensive dice on the page.",
+                    "When using a page, all Block dice on that page gain Power equal to the number of Defensive dice on said page.",
                 ]
             },
         ]
@@ -779,7 +786,7 @@ export const EmoPageList = [
                     "[Single Ally]",
                     "At the start of the Scene, each enemy is Allured at a 50% chance.",
                     "Allured enemies gain 2-4 damage for their attacks, and prioritize the selected librarian as a target.",
-                    "The librarian gains 1-2 Power in a clash against an Allured enemy.",
+                    "The librarian gains 1-2 Power in clashes against Allured enemies.",
                 ]
             },
             {
@@ -798,11 +805,11 @@ export const EmoPageList = [
                 Name: "Axe",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "At some point, it was wearing the shoes, grinning from ear to ear. It was uh... well it was quite strange. That wasn’t a smile. It was…",
+                Flavor: "At some point, &lt;Redacted&gt; was wearing the shoes, grinning from ear to ear. It was uh, well it was quite strange. That wasn’t a smile. It was…",
                 Desc: [
                     "[Single Ally]",
                     "Slash dice gain 1-3 Power.",
-                    "Take 2-5 Stagger damage when a Slash attack does not hit.",
+                    "Take 2-5 Stagger damage when a Slash attack does not connect. (Excludes Mass Attacks)",
                 ]
             },
         ]
@@ -819,7 +826,7 @@ export const EmoPageList = [
                 Flavor: "Unsurprisingly, not a single employee volunteered to retrieve the corpse of their cocooned colleague.",
                 Desc: [
                     "[Single Ally]",
-                    "On a successful attack, if the dice rolled maximum value: inflict 1-2 Paralysis, Bind, and Fragile.",
+                    "On hit, if the dice rolled maximum value: inflict 1-2 Paralysis, Bind, and Fragile next Scene.",
                 ]
             },
             {
@@ -830,7 +837,7 @@ export const EmoPageList = [
                 Flavor: "Peter was dragged to the ceiling in only a moment. The cocooned employee hanging off the ceiling of the Containment Unit will be a healthy meal for the spider’s offspring.",
                 Desc: [
                     "[Single Ally]",
-                    "On a successful attack against a staggered enemy, all allies recover 2-4 HP.",
+                    "On hit against a Staggered enemy, all allies recover 2-4 HP.",
                 ]
             },
             {
@@ -841,8 +848,8 @@ export const EmoPageList = [
                 Flavor: "The eyes shone in the dark, searching for prey to feed to its spiderlings.",
                 Desc: [
                     "[Single Ally]",
-                    "Enemies lose 1 Power in a clash against the selected librarian.",
-                    "Upon winning a clash, inflict 1 Bind and Fragile at a 50% chance.",
+                    "Enemies lose 1 Power in clashes against the selected librarian.",
+                    "Upon winning a clash, inflict 1 Bind and Fragile next Scene at a 50% chance.",
                 ]
             },
         ]
@@ -860,7 +867,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "The first opponent to clash against the selected librarian gains the 'Giftee' status.",
-                    "If the 'Giftee' clashes against a character other than the librarian that gave the 'Gift', the 'Gift' explodes with a 40% chance, dealing 2-7 damage at the start of the clash and inflicting 2 Bleed next Scene.",
+                    "If the 'Giftee' clashes against a character other than the selected librarian, the 'Gift' explodes at a 40% chance, dealing 2-7 damage and inflicting 2 Bleed next Scene.",
                     "When the 'Giftee' dies, a new 'Gift' can be given.",
                 ]
             },
@@ -872,7 +879,8 @@ export const EmoPageList = [
                 Flavor: "She was so sad that she had to leave her dear friends behind, so she came up with a brilliant idea!",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, sneak a 'friend' into one of the Combat pages in hand. (Does not activate when there's already a page with a 'friend' in hand.)",
+                    "At the start of the Scene, sneak a 'friend' into one of the Combat pages in hand. (Excludes [On Play] pages)",
+                    "Does not activate when there's already a page with a 'friend' in hand.",
                     "The page with the 'friend' gains 2-4 Power.",
                     "However, if the page is not used within 2 Scenes, it exhausts, dealing 2-7 damage to the librarian.",
                 ]
@@ -914,7 +922,8 @@ export const EmoPageList = [
                 Flavor: "Believing that it would turn white, the black swan wanted to lift the curse by weaving together nettles. All that was left is a worn parasol it once treasured.",
                 Desc: [
                     "[Single Ally]",
-                    "Gain 2-3 Speed. When hit, nullify the damage at a 30% chance, and return double the amount to the attacker as Stagger damage.",
+                    "Gain 2-3 Speed.",
+                    "When hit, nullify the damage at a 30% chance, and return double the amount back to the attacker as Stagger damage.",
                 ]
             },
             {
@@ -939,7 +948,7 @@ export const EmoPageList = [
                 Name: "Echoes from the Beyond",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "You see a song in front of you. It's approaching, becoming more colorful by the second.",
+                Flavor: "You see a song in front of you. It’s approaching, becoming more colorful by the second.",
                 Desc: [
                     "[All Characters]",
                     "Deal 5-10 Stagger damage to all enemies. All allies recover 5-10 Stagger Resist.",
@@ -950,22 +959,22 @@ export const EmoPageList = [
                 Name: "Tentacles",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "The moment its tentacle penetrates you, it'll drain all the interest for the life you're currently living out of you.",
+                Flavor: "The moment its tentacle penetrates you, it’ll drain all the interest for the life you’re currently living out of you.",
                 Desc: [
                     "[Single Ally]",
-                    "On a successful Pierce attack, reduce the max Stagger Resist of target by 5%. (Up to 50%)",
+                    "On a successful Pierce attack, reduce the max Stagger Resist of the target by 5%. (Up to 50%)",
                 ]
             },
             {
                 ID: "3",
                 Name: "Incomprehensible",
-                State: "Breakdown",
+                State: "Awakening",
                 Level: "II",
-                Flavor: "Eventually, he succeeded in entering the domain of the 'Fragment of the Universe'. However, it was obvious that his small brain couldn't withstand it.",
+                Flavor: "Eventually, he succeeded in entering the domain of the ‘Fragment of the Universe’. However, it was obvious that his small brain couldn’t withstand it.",
                 Desc: [
                     "[Single Ally]",
-                    "On a one-sided attack, inflict 1 Feeble and Disarm to the target at a 40% chance. ",
-                    "The likelihood increases by 10% for every successful attack. (Three times per engagement)",
+                    "On a one-sided attack, inflict 1 Feeble and Disarm next Scene at a 50% chance. ",
+                    "The likelihood increases by 10% for each successful attack. (Three times per engagement)",
                 ]
             },
         ]
@@ -979,10 +988,10 @@ export const EmoPageList = [
                 Name: "Pebble",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "'Do you like it? More than you like me? Isn't it obvious? I know everything. Whatever you do, wherever you go.'",
+                Flavor: "“Do you like it? More than you like me? Isn’t it obvious? I know everything. Whatever you do, wherever you go.”",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of each Scene, three random pages in hand gain the 'Pebble' status.",
+                    "At the start of each Scene, three random pages in hand gain the 'Pebble' status. (Excludes [On Play] pages)",
                     "Recover 3-7 HP upon using pages with the Pebble.",
                     "Lose 1-3 HP upon using pages without the Pebble.",
                 ]
@@ -992,10 +1001,10 @@ export const EmoPageList = [
                 Name: "Teardrop",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "I hear his whispers and breath. Pitch black darkness follows 'just like the night I met him'",
+                Flavor: "I hear his whispers and breath. Pitch black darkness follows… just like the night I met him…",
                 Desc: [
                     "[Single Ally]",
-                    "On death, all characters take 25% of this character's Max HP as damage. (Max. 30)",
+                    "Dice Power +1. On death, all characters take 50% of this character's Max HP as damage. (Max. 60)",
                 ]
             },
             {
@@ -1024,18 +1033,18 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "On a successful Pierce attack, inflict 1 Thrill to the target.",
-                    "Against targets with 5 or more Thrill, deal 2-7 additional damage and Stagger damage, then remove all stacks of Thrill.",
+                    "Against targets with 3+ Thrill, deal 2-7 bonus damage and Stagger damage, then remove all stacks of Thrill.",
                 ]
             },
             {
                 ID: "8",
-                Name: "Pleasure",
+                Name: "Elation",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "Now it's time for my head to burst. Good day.",
+                Flavor: "Now it’s time for my head to burst. Good day.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon taking a hit, receive 2-5 bonus Stagger damage and restore 1 Light with a 50% chance. (Twice per Scene)",
+                    "Dice Power +1. Reduce Max Stagger Resist by 50%.",
                 ]
             },
             {
@@ -1046,7 +1055,7 @@ export const EmoPageList = [
                 Flavor: "When the powder that falls from the thorns becomes known to the world, people may forever sink into the swamp of intoxication.",
                 Desc: [
                     "[All Allies]",
-                    "Upon taking a hit, recover 2-4 Stagger Resist if the character isn't staggered.",
+                    "When hit, recover 2-4 Stagger Resist if the character isn't staggered.",
                 ]
             },
         ]
@@ -1060,27 +1069,27 @@ export const EmoPageList = [
                 Name: "Flower Petals",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "Shedding flower petals in place of tears, you spoke to me. 'We were all part of earth once, so I plead you not to speak of the end here and now.'",
+                Flavor: "Shedding flower petals in place of tears, you spoke to me. “We were all part of earth once, so I plead you not to speak of the end here and now.”",
                 Desc: [
                     "[Single Ally]",
-                    "Every time the librarian sustains damage greater than 10% of their Max HP, all allies recover 3-9 Stagger Resist.",
+                    "Each time the librarian sustains damage greater than 10% of their Max HP, all enemies take 4-8 Stagger damage, and the librarian recovers 5-10 HP.",
                 ]
             },
             {
                 ID: "11",
-                Name: "Autumn's Passing",
-                State: "Awakening",
+                Name: "Autumn’s Passing",
+                State: "Breakdown",
                 Level: "II",
                 Flavor: "Bearing the hope to return to dust, it shall go back to the grave with all that desires to live.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon a successful Pierce attack, inflict 1 Aroma.",
+                    "When hit, inflict 1 Aroma.",
                     "(Aroma: At the start of the Scene, take Stagger damage equal to the amount of Aroma and halve the stack.)",
                 ]
             },
             {
                 ID: "12",
-                Name: "Spring's Genesis",
+                Name: "Spring’s Genesis",
                 State: "Awakening",
                 Level: "III",
                 Flavor: "Unwithering flowers violently blossom.",
@@ -1104,7 +1113,7 @@ export const EmoPageList = [
                 Flavor: "The performance does not end. And Da capo. And, Da capo al Fine",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Ever-repeating Performance' page to the hand: 'Cost 3 - [On Use] Ends the Scene. At the start of the next Scene, user's HP and Stagger Resist return to the values they had when acquiring this page, and fully restore Light.'",
+                    "Add an 'Ever-repeating Performance' page to the hand: ‘Cost 3 - [On Use] Ends the Scene. At the start of the next Scene, user's HP and Stagger Resist return to the values they had when acquiring this page, and fully restore Light.’",
                     "The page is also included in the deck at the start of subsequent Acts.",
                 ]
             },
@@ -1124,7 +1133,7 @@ export const EmoPageList = [
                 Name: "The Finale",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "'The music shall perforate your entire being.'",
+                Flavor: "“The music shall perforate your entire being.”",
                 Desc: [
                     "[Single Ally]",
                     "Whenever the selected librarian Staggers an enemy, all enemies lose 1-6 Light at the start of the next Scene.",
@@ -1153,10 +1162,10 @@ export const EmoPageList = [
                 Name: "Justice",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "If I am on the side of good, then someone has to be on the side of evil. Without someone to play the villain, I cant exist.",
+                Flavor: "If I am on the side of good, then someone has to be on the side of evil. Without someone to play the villain, I can’t exist.",
                 Desc: [
                     "[Single Ally]",
-                    "The enemy who dealt the most damage to allies in the previous Scene is marked as a 'Villain'.",
+                    "The enemy who dealt the most damage to allies on the previous Scene is marked as a 'Villain'.",
                     "Deal 3-5 additional damage when attacking the 'Villain'.",
                 ]
             },
@@ -1186,9 +1195,7 @@ export const EmoPageList = [
                 Flavor: "The will to protect seems to remain unchanged after all this time; even in containment, it is still obsessed with the act of protection.",
                 Desc: [
                     "[Single Ally]",
-                    "Resistances against the type the Key page is weakest to become 'Fatal'.",
-                    "Resistances against all other types become 'Endured'.",
-                    "(If two or more types are tied, one is randomly determined)",
+                    "If the character took damage from attacks on the previous Scene, change this character's resistances against the type that dealt the most damage to 'Endured' for the Scene. (Applies separately for physical and Stagger damage)",
                 ]
             },
             {
@@ -1199,12 +1206,12 @@ export const EmoPageList = [
                 Flavor: "As with sorrow, perhaps sharing the burden will blunt the edge.",
                 Desc: [
                     "[All Allies]",
-                    "Whenever an ally dies, all allies gain 1-3 Strength and Haste, and all enemies gain 2 Fragile.",
+                    "Whenever an ally dies, all other allies gain 1-3 Strength and Haste, and all enemies are inflicted with 2 Fragile.",
                 ]
             },
             {
                 ID: "6",
-                Name: "Sword Sharpened with Tears",
+                Name: "Blades Whetted by Teardrops",
                 State: "Awakening",
                 Level: "I",
                 Flavor: "When Justice turns its back once more, several dozen blades will rove without a purpose. The swords will eventually point at those she could not protect.",
@@ -1227,7 +1234,7 @@ export const EmoPageList = [
                 Flavor: "The first seed of desire originated from the pure yearning for happiness. The tiny seed grew larger and larger, hungering for more. Over time, the seed hardened and turned into a piece of shiny gem.",
                 Desc: [
                     "[Single Ally]",
-                    "If the first die of a Combat page wins a clash, destroy all remaining dice on the opponent's page at a 25% chance.",
+                    "If the first die of a Combat page wins a clash, destroy all remaining dice the opponent has at a 25% chance.",
                 ]
             },
             {
@@ -1238,7 +1245,7 @@ export const EmoPageList = [
                 Flavor: "Happiness became obsession, obsession became greed, and the greed forever solidified to become a golden amber. The happiness in the beginning, still holding a smile, dwells inside.",
                 Desc: [
                     "[Single Ally]",
-                    "Gain Endurance for every clash won in a Scene. (Up to 3 per Scene)",
+                    "Gain 1 Endurance for each clash won in a Scene. (Up to 3 per Scene)",
                 ]
             },
             {
@@ -1263,7 +1270,7 @@ export const EmoPageList = [
                 Name: "Wrath",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "The Servant was betrayed after abandoning her principles and ingeniously trusting someone with her whole heart. Now, she is dominated by the anger towards herself for what she had done.",
+                Flavor: "The Servant was betrayed after abandoning her principles and ingenuously trusting someone with her whole heart. Now, she is dominated by the anger towards herself for what she had done.",
                 Desc: [
                     "[Single Ally]",
                     "The selected librarian enters a state of Wrath.",
@@ -1276,10 +1283,10 @@ export const EmoPageList = [
                 Name: "Companion",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "The Servant of Wrath valued justice and balance more than anyone, but she began sharing knowledge with the Hermit, an enemy of her realm, becoming friends with her in secret.",
+                Flavor: "The Servant of Wrath valued justice and balance more than anyone, but she began sharing knowledge with the Hermit—an enemy of her realm—becoming friends with her in secret.",
                 Desc: [
                     "[Single Ally]",
-                    "When there is no 'Companion' present, the first enemy the selected librarian attacks is marked as a 'Companion'. When the selected librarian defeats the 'Companion', all librarians restore 3 Light and recover 10 HP and Stagger Resist.",
+                    "When there is no 'Companion' present, the first enemy the selected librarian attacks is marked as a 'Companion'. When the selected librarian defeats the Companion, all librarians restore 3 Light and recover 10 HP and Stagger Resist.",
                 ]
             },
             {
@@ -1287,7 +1294,7 @@ export const EmoPageList = [
                 Name: "Acidic Sludge",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "When the two met at last, the Hermit brought countless minions to destroy the Servant's world.",
+                Flavor: "When the two met at last, the Hermit brought countless minions to destroy the Servant’s world.",
                 Desc: [
                     "[All Enemies]",
                     "Inflict 5 'Erosion' to all enemies. Enemies with Erosion also gain Bind equal to the amount of Erosion they currently have.",
@@ -1305,11 +1312,12 @@ export const EmoPageList = [
                 Name: "Magical Girls",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "The jester retraced the steps of a path everybody wouldve taken. The jester always found itself at the end of that road. There was no way to know if they had gathered to become the jester, or if the jester had come to resemble them.",
+                Flavor: "The jester retraced the steps of a path everybody would’ve taken. The jester always found itself at the end of that road. There was no way to know if they had gathered to become the jester, or if the jester had come to resemble them.",
                 Desc: [
                     "[Single Ally]",
-                    "Four unique 'Magical Girl' pages are shuffled into the deck. ",
-                    "While all four Magical Girl pages are in hand, the librarian gains 1-2 Strength each Scene, and is not affected by Feeble, Disarm, or Bind.",
+                    "At the start of the Scene, a Combat page in hand with the highest Cost (that is lower than 4) is marked with a Magical symbol.",
+                    "After losing 4 clashes with the marked page, gain 5 Protection each Scene, and become immune to status ailments for the rest of the reception.",
+                    "Also, when hit, inflict 1 Erosion and Fragile next Scene to the attacker. (Twice per Scene)",
                 ]
             },
             {
@@ -1320,12 +1328,12 @@ export const EmoPageList = [
                 Flavor: "The jester was deeper in thought, that poor jester. Without the brave puppy to lead the way, it walks with meaningless steps.",
                 Desc: [
                     "[Single Ally]",
-                    "Add an 'All Returns to the Void' page to the hand: Cost 3 - [Combat Start] Exhaust all pages from hand. Every Scene after this, gain Strength and Endurance equal to the number of pages exhausted this way.",
+                    "Add an 'All Returns to the Void' page to the hand: ‘Cost 3 - [Combat Start] Exhaust all pages from hand. Every Scene after this, gain Strength and Endurance equal to the number of pages exhausted this way.’",
                 ]
             },
             {
                 ID: "15",
-                Name: "Nihil",
+                Name: "Nix",
                 State: "Breakdown",
                 Level: "III",
                 Flavor: "Having decided to trust its own intuition, the jester spake the names of everyone it had met on that path with each step it took.",
@@ -1346,7 +1354,7 @@ export const EmoPageList = [
                 Name: "Prey",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "The wolf's death is the one and only thing I can love in my life.",
+                Flavor: "The wolf’s death is the one and only thing I can love in my life.",
                 Desc: [
                     "[Single Ally]",
                     "Mark the first enemy that is attacked by this librarian after the page is selected.",
@@ -1358,21 +1366,21 @@ export const EmoPageList = [
                 Name: "Vengeance",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "Between us, there's no victory to be won. All I think about is how I'll kill that bastard in a way more gruesome and painful than the last time.",
+                Flavor: "Between us, there’s no victory to be won. All I think about is how I’ll kill that bastard in a way more gruesome and painful than the last time.",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, gain Strength based on the amount of damage taken in the previous Scene. (1 Strength per 5 damage)",
+                    "At the start of the Scene, gain Strength based on the amount of damage taken the previous Scene. (1 Strength per 5 damage, up to 2)",
                 ]
             },
             {
                 ID: "3",
-                Name: "Crimson Scar",
+                Name: "Ruddled Welts",
                 State: "Breakdown",
                 Level: "II",
                 Flavor: "I got used to grinding the axe instead of picking flowers when I was 15.",
                 Desc: [
                     "[Single Ally]",
-                    "If the librarian's HP is at 50% or lower, gain 1 Strength each Scene.",
+                    "If the librarian's HP is at 50%/35%/25% or lower, gain 1/2/4 Strength each Scene.",
                 ]
             },
         ]
@@ -1385,8 +1393,8 @@ export const EmoPageList = [
                 ID: "4",
                 Name: "Instincts",
                 State: "Awakening",
-                Level: "I",
-                Flavor: "The taste of flesh was so good after such a long absence. Since then, it got harder and harder to keep himself in check. Still, it didn't matter to him. After all, he was 'destined' to be a big bad wolf.",
+                Level: "II",
+                Flavor: "The taste of flesh was so good after such a long absence. Since then, it got harder and harder to keep himself in check. Still, it didn’t matter to him. After all, he was “destined” to be a big bad wolf.",
                 Desc: [
                     "[Single Ally]",
                     "Each time the selected librarian wins a clash, the last die on their current page gains 1-2 Power.",
@@ -1414,7 +1422,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "Counter dice gain 1-2 Power.",
-                    "Counter dice inflict 2 Fragile upon winning a clash.",
+                    "Counter dice inflict 2 Fragile upon winning a clash. (3 times per Scene)",
                 ]
             },
         ]
@@ -1432,7 +1440,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "For the duration of the Act, recover 20% of Max. HP (Max. 20) upon defeating an enemy.",
-                    "At the start of the Scene, gain Strength based on the amount of HP the librarian has recovered this Act. (1 Strength per 10% of Max. HP healed)(Max. 3)",
+                    "At the start of the Scene, gain Strength based on the amount of HP the librarian has recovered this Act. (1 Strength per 10% of Max. HP healed, up to 3)",
                 ]
             },
             {
@@ -1443,8 +1451,8 @@ export const EmoPageList = [
                 Flavor: "From the mountains of bodies; the dead gave life to something. The dead fused with one another, all smiling.",
                 Desc: [
                     "[Single Ally]",
-                    "When the librarian takes a hit while their HP is at 25% or lower, a screech bursts out at a 50% chance. (Up to twice per Scene)",
-                    "The screech deals 2-10 Stagger damage to all characters other than this librarian, and all characters are inflicted with one of the following statuses next Scene: 3 Feeble, 3 Disarm, 3 Bind, or 3 Fragile.",
+                    "When the librarian takes a hit while their HP is at 50% or lower, a screech bursts out at a 50% chance. (Up to 3 times per Scene)",
+                    "The screech deals 2-5 Stagger damage to all enemies and inflicts 1 Fragile next Scene.",
                 ]
             },
             {
@@ -1456,7 +1464,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "All librarians except the selected one are immediately killed when this page is chosen. ",
-                    "The selected librarian gains Max Light capacity, Light restoration, Strength, Protection, and Haste proportional to the number of librarians killed for the rest of the battle.",
+                    "The selected librarian gains Max Light Capacity, Light Restoration, Strength, Protection, and Haste proportional to the number of librarians killed for the rest of the battle.",
                 ]
             },
         ]
@@ -1470,35 +1478,33 @@ export const EmoPageList = [
                 Name: "Fear of Water",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "He seemed lost. He was looking for something, but he didn't appear to know what he wanted to find.",
+                Flavor: "He seemed lost. He was looking for something, but he didn’t appear to know what he wanted to find.",
                 Desc: [
                     "[Single Ally]",
-                    "Lose 2-6 HP when playing an Offensive die.",
-                    "Deal 3-7 additional damage with attacks, and inflict 1 Bleed on hit.",
+                    "On hit, inflict 1 Bleed next Scene, and gain 1 Blood.",
+                    "Blood grants various effects depending on its amount, such as increasing attack damage at the cost of HP, taking Stagger damage at the start of the Scene, and granting Strength.",
                 ]
             },
             {
                 ID: "11",
                 Name: "Wine",
-                State: "Breakdown",
+                State: "Awakening",
                 Level: "II",
                 Flavor: "It maintains a human form, but a single drop of blood should be enough for it to shapeshift into a ferocious monster and spend the night in a rampage.",
                 Desc: [
                     "[Single Ally]",
-                    "The selected librarian takes damage equal to 80% of their current HP.",
-                    "All other allies recover HP by the amount of damage dealt, split equally between them.",
+                    "Upon defeating an enemy with Bleed, all allies recover 10 HP, and the selected librarian gains max Blood.",
                 ]
             },
             {
                 ID: "12",
                 Name: "Vampirism",
                 State: "Awakening",
-                Level: "II",
-                Flavor: "And the thirst would never truly be quenched.",
+                Level: "I",
+                Flavor: "…And the thirst would never truly be quenched.",
                 Desc: [
                     "[Single Ally]",
-                    "If the target has more HP than the librarian, deal 2-4 bonus damage and inflict 1 Bleed on a successful attack. ",
-                    "Heal 2-5 HP upon attacking a target with Bleed.",
+                    "Deal +2-4 damage and recover 2-5 HP upon attacking a target with Bleed.",
                 ]
             },
         ]
@@ -1523,7 +1529,7 @@ export const EmoPageList = [
                 Name: "Hello?",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "'What's worse, it tried to mimic humans. Doing stuff like looking into a mirror, mumbling to itself, or trying to fix its skeletal structure; it's as if it was trying to mimic 'us'.'",
+                Flavor: "“What’s worse, it tried to mimic humans. Doing stuff like looking into a mirror, mumbling to itself, or trying to fix its skeletal structure; it’s as if it was trying to mimic ‘us’.”",
                 Desc: [
                     "[Single Ally]",
                     "Each Scene, the first die the librarian plays recovers HP equal to the amount of damage it dealt.",
@@ -1534,10 +1540,10 @@ export const EmoPageList = [
                 Name: "Shell",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "Its appearance resembles a human, but it most certainly isn't human. It periodically devours employees and wears their shell. The skeleton and organs are misplaced during the process, so it takes a bizarre form.",
+                Flavor: "Its appearance resembles a human, but it most certainly isn’t human. It periodically devours employees and wears their shell. The skeleton and organs are misplaced during the process, so it takes a bizarre form.",
                 Desc: [
                     "[Single Ally]",
-                    "Nullify Stagger damage.",
+                    "Nullify incoming Stagger damage from attacks.",
                 ]
             },
         ]
@@ -1554,18 +1560,18 @@ export const EmoPageList = [
                 Flavor: "When he returned, he had a visibly long scar on his head. People asked him how he felt, and he responded that his head felt lighter.",
                 Desc: [
                     "[Single Ally]",
-                    "Whenever the librarian uses a page, discard a random page from hand and restore 1 Light.",
+                    "Whenever the librarian uses a page, discard a random page from hand and restore 1 Light. (Excludes [On Play] pages)",
                 ]
             },
             {
                 ID: "2",
-                Name: "Harvest",
+                Name: "Gleaning",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "It shows aggression towards certain employees, attempting to take their brains. These employees are those who scored 'Excellent' on the intelligence test.",
+                Flavor: "It shows aggression towards certain employees, attempting to take their brains. These employees are those who scored “Excellent” on the intelligence test.",
                 Desc: [
                     "[Single Ally]",
-                    "After attacking an enemy with a higher amount of Stagger Resist, deal 2-4 additional Stagger damage, and recover 2-5 Stagger Resist.",
+                    "After attacking an enemy with a higher amount of Stagger Resist, deal 2-4 bonus Stagger damage, and recover 2-5 Stagger Resist.",
                 ]
             },
             {
@@ -1576,9 +1582,9 @@ export const EmoPageList = [
                 Flavor: "The rake tilled the human brain instead of farmland. How many of the wise people among us have lost their lives to this rake?",
                 Desc: [
                     "[Single Ally]",
-                    "After staggering an enemy, copy two pages owned by that enemy and add them to the librarian's hand with 2 less Cost.",
+                    "After Staggering an enemy, copy two pages owned by that enemy and add them to the librarian's hand with 2 less Cost.",
                     "The copied pages are exhausted on use.",
-                    "(Can only copy Melee pages while equipping a Melee-only Key page, and vice versa)",
+                    "(Can only copy Melee pages while equipping a Melee-only Key page, and vice versa; no effect against characters with 'Shimmering')",
                 ]
             },
         ]
@@ -1592,15 +1598,15 @@ export const EmoPageList = [
                 Name: "A Warm Heart",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "In anger, he swung his axe through the wizard's heart. The warm heart was pulsing vigorously.",
+                Flavor: "In anger, he swung his axe through the wizard’s heart. The warm heart was pulsing vigorously.",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, boost the Power of Offensive dice by 1-2 for the Scene if the librarian has 3 or more Light.",
+                    "At the start of the Scene, boost the Power of Offensive dice by +1-2 for the Scene if the librarian has 3 or more Light.",
                 ]
             },
             {
                 ID: "5",
-                Name: "Heart",
+                Name: "Cardiae",
                 State: "Awakening",
                 Level: "I",
                 Flavor: "There will never be enough hearts. Once a Woodsman, he now fells people instead of trees.",
@@ -1608,18 +1614,18 @@ export const EmoPageList = [
                     "[Single Ally]",
                     "After dealing 15 or more damage to enemies in a single Scene, reduce the Cost of the two most expensive pages in hand by 1.",
                     "On kill, reduce the Cost to 0 instead.",
-                    "The Cost of those Combat pages is reset to the value before this effect was applied on use.",
+                    "The Cost reduction is reset when the pages are used.",
                 ]
             },
             {
                 ID: "6",
-                Name: "Lumber",
+                Name: "Timber",
                 State: "Breakdown",
                 Level: "I",
                 Flavor: "This is a forest full of hearts. No matter how many he cuts down, the forest still remains dense.",
                 Desc: [
                     "[Single Ally]",
-                    "When attacking a target that has more Light than the librarian, Offensive dice gain Power equal to the amount of Light the target has (Up to 2).",
+                    "When attacking a target that has more Light than the librarian, Offensive dice gain Power equal to the amount of Light the target has. (Up to 2)",
                 ]
             },
         ]
@@ -1633,7 +1639,7 @@ export const EmoPageList = [
                 Name: "Courage",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "'Can I follow you forever? So I can tear them apart'",
+                Flavor: "Can I follow you forever? So I can tear them apart…",
                 Desc: [
                     "[Single Ally]",
                     "At the start of the Scene, gain Strength and Protection equal to the number of allies currently alive subtracted by 2. (If the value is less than 0, Feeble and Fragile will be inflicted instead.)",
@@ -1648,7 +1654,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "At the start of the Scene, numbered targets are placed on up to three enemies.",
-                    "Every time a target is attacked in the correct order, increase outgoing damage by 2 for the Scene.",
+                    "Each time a target is attacked in the correct order, increase outgoing damage by 3 for the Scene.",
                 ]
             },
             {
@@ -1656,7 +1662,7 @@ export const EmoPageList = [
                 Name: "A Road Walked Together",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "Let's walk together. To a wonderful land, The world of dreams.",
+                Flavor: "Let’s walk together. To a wonderful land… The world of dreams.",
                 Desc: [
                     "[Single Ally]",
                     "If an ally redirects an attack that was initially targeting this character, dice on that ally's page gain 1-2 Power in the clash.",
@@ -1688,7 +1694,7 @@ export const EmoPageList = [
                 Flavor: "There was such a fine and beautiful person, staring at her with a perplexed expression.",
                 Desc: [
                     "[Single Ally]",
-                    "Add an 'Oblivion' page to hand: 'Cost 3 - [On Play][Exhaust] Immobilized for this Scene; cannot be targeted. At the end of this Scene, recover 40% of Max. HP (up to 48) and fully restore Light.'",
+                    "Add an 'Oblivion' page to hand: ‘Cost 3 - [On Play;] [Exhaust] Immobilized for this Scene; cannot be targeted. At the end of this Scene, recover 40% of Max. HP (up to 48) and fully restore Light.’",
                 ]
             },
             {
@@ -1696,7 +1702,7 @@ export const EmoPageList = [
                 Name: "Powder of Life",
                 State: "Breakdown",
                 Level: "III",
-                Flavor: "Finally, she sprinkled cinnamon powder 'her favorite' and clutched the pumpkin in her arms.",
+                Flavor: "Finally, she sprinkled cinnamon powder—her favorite—and clutched the pumpkin in her arms.",
                 Desc: [
                     "[All Allies]",
                     "When a librarian takes lethal damage, nullify it and recover 20% of Max. HP (up to 24). Can only activate once per reception.",
@@ -1716,7 +1722,7 @@ export const EmoPageList = [
                 Flavor: "Oz came up with a brilliant idea. Her emerald eyes seemed to shine even brighter.",
                 Desc: [
                     "[Single Ally]",
-                    "Add an 'Emerald' page to hand: 'Cost 5 - [On Play][Target Enemy] Cancel 2 random Combat pages on the target's Speed dice. Recover 1 Light for each successful hit on the target this Scene (Up to twice)'.",
+                    "Add an 'Emerald' page to hand: ‘Cost 5 - [On Play;] [Target Enemy] Cancel 2 random Combat pages on the target's Speed dice. Recover 1 Light for each successful hit on the target this Scene (Up to 2)’.",
                     "The page is also included in the deck at the start of subsequent Acts.",
                 ]
             },
@@ -1725,11 +1731,11 @@ export const EmoPageList = [
                 Name: "False Present",
                 State: "Breakdown",
                 Level: "III",
-                Flavor: "Poor Ozma. She didn't know that lying adults don't approach others without reason.",
+                Flavor: "Poor Ozma. She didn’t know that lying adults don’t approach others without reason.",
                 Desc: [
                     "[All Allies]",
-                    "Librarians randomly gain one of the following: 'Liquid Courage', 'Silk Sack of Sawdust', 'Heart of Lead', 'Home that Cannot Be Reached', and 'Transformation'. No effect is given to two librarians at once.",
-                    "The effects persists for the rest of the reception.",
+                    "Add 0-Cost false present pages that activate on play to the E.G.O pages list: 'Liquid Courage', 'Silk Sack of Sawdust', 'Heart of Lead', 'Home that Cannot Be Reached', and 'Transformation'.",
+                    "The false present pages are also added to the E.G.O page list at the start of subsequent Acts.",
                 ]
             },
             {
@@ -1740,7 +1746,7 @@ export const EmoPageList = [
                 Flavor: "Soon, Oz came to be called a wizard by the people.",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Magic Trick' page to hand: 'Cost 4 - [On Play] Reduce the Cost of all pages in hand to 0. Their Cost is reset to the value before this effect was applied on use.'",
+                    "Add a 'Magic Trick' page to hand: ‘Cost 4 - [On Play] Reduce the Cost of all pages in hand to 0. When used, their Cost is reset to the value before this effect was applied.’",
                     "The page is also included in the deck at the start of subsequent Acts.",
                 ]
             },
@@ -1759,7 +1765,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "Fully restore the selected librarian's Light.",
-                    "Every Scene, a random ally gains no Light while the selected librarian restores 1 additional Light.",
+                    "Each Scene, a random ally gains no Light while the selected librarian restores 1 additional Light.",
                 ]
             },
             {
@@ -1767,7 +1773,7 @@ export const EmoPageList = [
                 Name: "Eternally Lit Lamp",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "'If I kill the creatures first, then no one would be killed by the beast!'",
+                Flavor: "“If I kill the creatures first, then no one would be killed by the beast!”",
                 Desc: [
                     "[Single Ally]",
                     "Any enemy this librarian targets will be forced to target the librarian back, regardless of Speed.",
@@ -1782,7 +1788,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "All dice gain +1 Power against enemies with higher Speed.",
-                    "If target's HP is at 25% or below, destroy all dice on their page upon winning a clash.",
+                    "If target's HP is at 25% or lower, destroy all of their dice upon winning a clash.",
                 ]
             },
         ]
@@ -1795,11 +1801,11 @@ export const EmoPageList = [
                 ID: "4",
                 Name: "Punishment",
                 State: "Breakdown",
-                Level: "I",
-                Flavor: "'It must be because there's no one to punish people for their misdeeds. If someone takes that role, then no foul act would happen in this world ever again!'",
+                Level: "II",
+                Flavor: "“It must be because there’s no one to punish people for their misdeeds. If someone takes that role, then no foul act would happen in this world ever again!”",
                 Desc: [
                     "[Single Ally]",
-                    "After taking damage, the first die of the first page the librarian uses next Scene gains 2-4 Power.",
+                    "After taking damage, the first die of the first page the librarian uses next Scene gains 2-4 Power. (Excludes [On Play] pages)",
                 ]
             },
             {
@@ -1807,7 +1813,7 @@ export const EmoPageList = [
                 Name: "Punishing Beak",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "People have been committing sins since long ago. 'Why do they commit sins, knowing it's wrong?'",
+                Flavor: "People have been committing sins since long ago. “Why do they commit sins, knowing it’s wrong?”",
                 Desc: [
                     "[Single Ally]",
                     "The librarian's attacks deal bonus damage equal to the number of Scenes that pass without the librarian taking damage from attacks. (Max. 10)",
@@ -1847,11 +1853,11 @@ export const EmoPageList = [
                 Name: "Judgement",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "Then somebody said, 'But what if the scale doesn't tip in either direction someday?' Worried, Long Bird made a scale that always tipped to one side. That way every judgement would yield a clear verdict.",
+                Flavor: "Then somebody said, “But what if the scale doesn’t tip in either direction someday?” Worried, Long Bird made a scale that always tipped to one side. That way every judgement would yield a clear verdict.",
                 Desc: [
                     "[Single Ally]",
                     "At the start of the Scene, all characters gain 1 Sin at a 50% chance.",
-                    "If a character has 5 or more Sin, they take damage equal to 10% of their Max. HP at the start of the Scene, and all Sin is removed from them.",
+                    "If a character has 5+ Sin, they take damage equal to 10% of their Max. HP at the start of the Scene, and all Sin is removed from them.",
                     "Sin can be transferred to another character by attacking and damaging them. (Once per page)",
                 ]
             },
@@ -1877,7 +1883,7 @@ export const EmoPageList = [
                 Name: "Long Arms",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "The Long Bird's arms concealed time.",
+                Flavor: "The Long Bird’s arms concealed time.",
                 Desc: [
                     "[Single Ally]",
                     "Take no damage from certain status ailments (Burn, Bleed, Fairy, Sin).",
@@ -1887,11 +1893,13 @@ export const EmoPageList = [
                 ID: "11",
                 Name: "Big Eyes",
                 State: "Breakdown",
-                Level: "II",
-                Flavor: "The Big Bird's eyes imprisoned light.",
+                Level: "I",
+                Flavor: "The Big Bird’s eyes imprisoned light.",
                 Desc: [
                     "[Single Ally]",
-                    "Dice played by the selected librarian and any dice clashing against the librarian are no longer influenced by Power gain or loss.",
+                    "At the start of the Scene, inflict 'Enchanted' to all enemies.",
+                    "Enchanted enemies target this librarian, and deal +2-4 damage with attacks.",
+                    "Gain 1-2 Power in clashes against Enchanted enemies, and recover 2-5 HP and Stagger Resist upon winning a clash.",
                 ]
             },
             {
@@ -1899,10 +1907,10 @@ export const EmoPageList = [
                 Name: "Small Beak",
                 State: "Breakdown",
                 Level: "II",
-                Flavor: "And the Small Bird's beak whispered, endlessly",
+                Flavor: "And the Small Bird’s beak whispered, endlessly…",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Small Beak' page to hand: 'Cost 0 - [On Play][Return to Hand] Take 5% of Max. HP as damage; restore 1 Light'.",
+                    "Add a 'Small Beak' page to hand: ‘Cost 0 - [On Play;] [Return to Hand] Take 5% of Max. HP as damage; restore 1 Light’.",
                 ]
             },
         ]
@@ -1916,11 +1924,12 @@ export const EmoPageList = [
                 Name: "The Beast",
                 State: "Breakdown",
                 Level: "III",
-                Flavor: "The day when Big Bird's eyes that could see hundreds of kilometers away, Long Bird who could judge any sin, and Small Bird's mouth that could devour everything united into one, darkness fell upon the forest.",
+                Flavor: "The day when Big Bird’s eyes that could see hundreds of kilometers away, Long Bird who could judge any sin, and Small Bird’s mouth that could devour everything united into one, darkness fell upon the forest.",
                 Desc: [
                     "[Single Ally]",
-                    "Activates when the librarian possesses all of the following Abnormality pages: 'Big Eyes', 'Small Beak', 'Long Arms'.",
-                    "After dealing 15 damage within a single Scene, absorb 1 Light from the target, and inflict 1 Paralysis on all other characters next Scene. (3 times per Scene)",
+                    "Activates when the selected librarian possesses all of the following Abnormality pages: 'Big Eyes', 'Small Beak', 'Long Arms'.",
+                    "All dice of characters targeting or targeted by this character are unaffected by Power gain or loss, and their minimum and maximum values are lowered by 3.",
+                    "At the end of the Scene, all other characters take 15 damage, and this character fully restores Light.",
                 ]
             },
             {
@@ -1928,11 +1937,11 @@ export const EmoPageList = [
                 Name: "Guardians of the Forest",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "That's when the birds decided to become the guardians of the forest. They loved this forest more than anyone else did, so they wanted to protect the creatures living in the forest and keep the peace.",
+                Flavor: "That’s when the birds decided to become the guardians of the forest. They loved this forest more than anyone else did, so they wanted to protect the creatures living in the forest and keep the peace.",
                 Desc: [
                     "[Single Ally]",
-                    "All librarians gain 1 Haste for the duration of the battle.",
-                    "If all five librarians each have an Abnormality page, gain 1 Strength and Endurance in addition.",
+                    "All librarians gain 1 Haste at the start of each Scene for the duration of the reception.",
+                    "If all five librarians each have an Abnormality page, gain 1-2 Strength and Endurance in addition.",
                 ]
             },
             {
@@ -1958,7 +1967,7 @@ export const EmoPageList = [
                 Name: "Lean, Bloody Wings",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "Once it recognizes that it lost your attention and focus, it will spread its wings. Like an angel, its wings will reach the skies and extend toward the ground, eventually blocking the sun out.",
+                Flavor: "Once it recognizes that it lost your attention and focus… It will spread its wings. Like an angel, its wings will reach the skies and extend toward the ground, eventually blocking the sun out.",
                 Desc: [
                     "[Single Ally]",
                     "On a deflect, deal half of the Block dice roll as physical damage to the opponent.",
@@ -1969,7 +1978,7 @@ export const EmoPageList = [
                 Name: "Gaze of Others",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "That's what a gaze is. Attention. An invisible string that connects us. Sole focus.",
+                Flavor: "That’s what a gaze is. Attention. An invisible string that connects us. Sole focus.",
                 Desc: [
                     "[Single Ally]",
                     "Deal 2-4 additional damage in a one-sided attack.",
@@ -1981,7 +1990,7 @@ export const EmoPageList = [
                 Name: "Attention and Focus",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "Don't look away, just keep your eyes on it. Contain it in your sight.",
+                Flavor: "Don’t look away, just keep your eyes on it. Contain it in your sight.",
                 Desc: [
                     "[Single Ally]",
                     "Deal and take twice as much Stagger damage on a deflect.",
@@ -2001,7 +2010,7 @@ export const EmoPageList = [
                 Flavor: "Time flows as life does, and life goes as time does.",
                 Desc: [
                     "[All Allies]",
-                    "The player has 30 seconds to select Combat pages before the combat phase starts each Scene.",
+                    "The player has 30 seconds to select Combat pages before the combat phase begins each Scene.",
                     "Boost the Power of all dice of all librarians by 1-2.",
                 ]
             },
@@ -2013,8 +2022,8 @@ export const EmoPageList = [
                 Flavor: "I know of absolute solitude. I shared my silence, and now I take its price. Once the time comes and the original owner arrives, the price will be paid.",
                 Desc: [
                     "[Single Ally]",
-                    "Every 13th Combat page the librarian plays gains 1-2 Power.",
-                    "The dice on the page also gain the following effect: '[On Hit] Deal bonus damage equal to (Dice value)% of target's Max HP'.",
+                    "Every 13th Combat page the librarian plays gains 1-2 Power. (Excludes [On Play] pages)",
+                    "The dice on the page also gain the following effect: ‘[On Hit] Deal bonus damage equal to (Dice value)% of target's Max HP’.",
                 ]
             },
             {
@@ -2025,8 +2034,8 @@ export const EmoPageList = [
                 Flavor: "Rarely, I feel as if time has stopped. Fleeting moments of silence sometimes befall me.",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Silence' page to the hand: 'Cost 3 - [On Use] Take 25% of Max. HP as damage; inflict 5 Bind on all other characters next Scene'. ",
-                    "Add an 'Amplify' page to the hand: 'Cost 3 - [On Use] Take 15% of Max. HP as damage; Gain 5 Haste next Scene'.",
+                    "Add a 'Silence' page to the hand: ‘Cost 0 - [On Play] Take 15% of Max. HP as damage; all other characters lose 5 Speed’. ",
+                    "Add an 'Amplify' page to the hand: ‘Cost 0 - [On Play] Take 10% of Max. HP as damage; Gain 5 Speed’.",
                 ]
             },
         ]
@@ -2043,7 +2052,7 @@ export const EmoPageList = [
                 Flavor: "Let us meet again as stars.",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Martyr' page to hand: 'Cost 1 - [On Play] For this Scene, deal 2-4 bonus Stagger damage with attacks but take 2 damage after a successful attack'.",
+                    "Add a 'Martyr' page to hand: ‘Cost 0 - [On Play] For this Scene, deal 4-6 bonus Stagger damage with attacks but take 1-3 damage after a successful attack’.",
                 ]
             },
             {
@@ -2062,7 +2071,7 @@ export const EmoPageList = [
                 Name: "A Nostalgic Sound",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "The rise of a star is a brand new beginning. Don't you hear the everlasting sound of the trumpet?",
+                Flavor: "The rise of a star is a brand new beginning. Don’t you hear the everlasting sound of the trumpet?",
                 Desc: [
                     "[All Allies]",
                     "All allies deal 2-4 additional Stagger damage for this Scene. The effect of this page activates every 3 Scenes afterwards.",
@@ -2091,10 +2100,10 @@ export const EmoPageList = [
                 Name: "Baptism",
                 State: "Awakening",
                 Level: "I",
-                Flavor: "'I shall heal you, curing you of all disease and injury you possess.'",
+                Flavor: "“I shall heal you, curing you of all disease and injury you possess.”",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Baptism' page to hand: 'Cost 2 - [On Play][Return to Hand] Target recovers 6 HP and gains 1 Endurance this Scene (Once per Scene)'.",
+                    "Add a 'Baptism' page to hand: ‘Cost 2 - [On Play;] [Return to Hand] Target recovers 6 HP and gains 1 Endurance this Scene (Once per Scene)’.",
                 ]
             },
             {
@@ -2102,11 +2111,11 @@ export const EmoPageList = [
                 Name: "Advent",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "'I am death and life. Darkness and light.'",
+                Flavor: "“I am death and life. Darkness and light.”",
                 Desc: [
                     "[Single Ally]",
                     "For the duration of the reception, restore 1 additional Light at the start of the Scene.",
-                    "If the selected librarian also has the Abnormality page 'Baptism', its effect is enhanced: 'Target recovers 12 HP and gains 2 Endurance this Scene'.",
+                    "If the selected librarian also has the Abnormality page 'Baptism', its effect is enhanced: ‘Target recovers 12 HP and gains 2 Endurance this Scene’.",
                 ]
             },
         ]
@@ -2117,13 +2126,13 @@ export const EmoPageList = [
         EmoPage: [
             {
                 ID: "13",
-                Name: "Guardian",
+                Name: "Sentinel",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "'Thou art His Son; thou art the King.'",
+                Flavor: "“Thou art His Son; thou art the King.”",
                 Desc: [
                     "[Single Ally]",
-                    "As long as there are other allies that can be targeted, the selected librarian will not be targeted for attacks.",
+                    "As long as there are other allies whom can be targeted, the selected librarian will not be targeted for attacks.",
                     "If this character is alive at the end of the reception, resolve an additional book for every guest defeated.",
                 ]
             },
@@ -2132,10 +2141,10 @@ export const EmoPageList = [
                 Name: "Divine Power",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "'Be not frightened. I am thy savior and I shall be with thee.'",
+                Flavor: "“Be not frightened. I am thy savior and I shall be with thee.”",
                 Desc: [
                     "[Single Ally]",
-                    "While this character is alive, all other allies gain 2 Protection every Scene.",
+                    "While this character is alive, all other allies gain 2 Protection each Scene.",
                     "If this character has used WhiteNight's E.G.O page, allies also absorb instances of 3 or less damage.",
                 ]
             },
@@ -2144,7 +2153,7 @@ export const EmoPageList = [
                 Name: "Apostles",
                 State: "Awakening",
                 Level: "III",
-                Flavor: "'Have not I chosen you twelve? Now rise, my servants. Rise and serve me.'",
+                Flavor: "“Have not I chosen you twelve? Now rise, my servants. Rise and serve me.”",
                 Desc: [
                     "[Single Ally]",
                     "While this character is alive, all other allies deal 2-7 additional damage with attacks.",
@@ -2166,7 +2175,7 @@ export const EmoPageList = [
                 Desc: [
                     "[Single Ally]",
                     "Defensive dice gain 1-2 Power.",
-                    "Receive 3-5 additional Stagger damage upon taking a hit.",
+                    "Receive 3-5 additional Stagger damage when hit.",
                 ]
             },
             {
@@ -2177,7 +2186,8 @@ export const EmoPageList = [
                 Flavor: "When I saw the latticework of scars on her severed wrist, I was reminded of our wine cabinet. That day, I popped the cork off the last one.",
                 Desc: [
                     "[Single Ally]",
-                    "Take 2-5 less damage from Slash attacks. Upon taking a hit, reduce the damage of the attack to 0 at a 20% chance.",
+                    "Take 2-5 less damage from Slash attacks.",
+                    "When hit, reduce the damage of the attack to 0 at a 20% chance.",
                 ]
             },
             {
@@ -2205,19 +2215,19 @@ export const EmoPageList = [
                 Level: "I",
                 Flavor: "Excessive aspiration would bring about unwarranted frenzy.",
                 Desc: [
-                    "[All Allies]",
+                    " [All Allies]",
                     "Gain 1-2 Strength at the end of each Scene.",
-                    "At the end of each Scene, if the librarian did not deal any damage with Offensive dice, lose 25% of the Max HP. (Max. 30)",
+                    "At the end of each Scene, if the librarian did not deal any damage with Offensive dice, they lose 25% of their Max HP. (Max. 30)",
                 ]
             },
             {
                 ID: "5",
-                Name: "Aspiration",
+                Name: "Urging",
                 State: "Awakening",
-                Level: "II",
-                Flavor: "When borrowed, its rate of contraction will double, enhancing the borrower's vigor and strength.",
+                Level: "I",
+                Flavor: "When borrowed, its rate of contraction will double, enhancing the borrower’s vigor and strength.",
                 Desc: [
-                    "[Single Ally]",
+                    "     [Single Ally]",
                     "Increase Max HP by 15%. (Current HP increases accordingly)",
                     "Gain 1-2 Speed.",
                 ]
@@ -2230,7 +2240,7 @@ export const EmoPageList = [
                 Flavor: "A heart without an owner; it still beats even after being removed from its body.",
                 Desc: [
                     "[Single Ally]",
-                    "The selected librarian dies at the end of the third Scene after this page was chosen.",
+                    "The selected librarian dies at the end of the third Scene after which this page was chosen.",
                     "Gain 4 Strength, Endurance, Haste, and Protection each Scene until death. All Stagger damage resistances change to 'Ineffective'.",
                 ]
             },
@@ -2245,10 +2255,10 @@ export const EmoPageList = [
                 Name: "Learning",
                 State: "Awakening",
                 Level: "II",
-                Flavor: "All the child could do was 'learn' by observing others and mimicking their behavior. And that was the problem.",
+                Flavor: "All the child could do was ‘learn’ by observing others and mimicking their behavior. And that was the problem.",
                 Desc: [
                     "[Single Ally]",
-                    "Add a 'Learn' page to the hand: 'Cost 2 - [Start of Clash] Replace all dice with ones on the opponent's page.'",
+                    "Add a 'Learn' page to hand: ‘Cost 2 - [Start of Clash] Replace all dice with ones on the opponent's page.’",
                     "The page is also included in the deck at the start of subsequent Acts.",
                 ]
             },
@@ -2260,7 +2270,7 @@ export const EmoPageList = [
                 Flavor: "People lie all the time. Why is that a bad thing?",
                 Desc: [
                     "[Single Ally]",
-                    "At the start of the Scene, randomize the Costs of all pages whose original Cost is 3 or less.",
+                    "At the start of the Scene, randomize the Costs of all pages whose original Cost is less than 4.",
                 ]
             },
             {
@@ -2268,7 +2278,7 @@ export const EmoPageList = [
                 Name: "Curiosity",
                 State: "Breakdown",
                 Level: "I",
-                Flavor: "I'm keen to learn as usual. Would you like to see me learn?",
+                Flavor: "I’m keen to learn as usual. Would you like to see me learn?",
                 Desc: [
                     "[Single Ally]",
                     "At the start of the Scene, shuffle all pages into the draw pile and draw 4 pages.",
@@ -2288,20 +2298,21 @@ export const EmoPageList = [
                 Flavor: "A queen lives alone in the frosty winter forest.",
                 Desc: [
                     "[Single Ally]",
-                    "Upon winning a clash, inflict 1-3 Bind to the opponent at a 50% chance.",
-                    "Deal 2-5 additional Stagger damage against targets with Bind.",
+                    "Upon winning a clash, inflict 1-3 Bind next Scene at a 50% chance.",
+                    "Deal +2-5 Stagger damage against targets with Bind.",
                 ]
             },
             {
                 ID: "11",
                 Name: "A Kiss",
                 State: "Awakening",
-                Level: "II",
-                Flavor: "The Snow Queen's kiss froze his heart, and he couldn't feel the cold anymore.",
+                Level: "III",
+                Flavor: "The Snow Queen’s kiss froze his heart, and he couldn’t feel the cold anymore.",
                 Desc: [
                     "[Single Ally]",
                     "After winning 2 or more clashes with a single Combat page, inflict Ice Splinter to the opponent.",
-                    "At the end of each Scene, characters with 3 or more Ice Splinters become immobilized for the next Scene.",
+                    "At the end of each Scene, characters with 3 or more Ice Splinters become Immobilized for the next Scene.",
+                    "      ",
                 ]
             },
             {
@@ -2309,7 +2320,7 @@ export const EmoPageList = [
                 Name: "Blizzard",
                 State: "Breakdown",
                 Level: "III",
-                Flavor: "Spring arrived with blossoming roses. Its warmth melted the Snow Queen's palace. No one remembered her, sleeping underneath.",
+                Flavor: "Spring arrived with blossoming roses. Its warmth melted the Snow Queen’s palace. No one remembered her, sleeping underneath.",
                 Desc: [
                     "[Single Ally]",
                     "All characters except the selected librarian become Immobilized for this Scene.",
@@ -2319,40 +2330,42 @@ export const EmoPageList = [
         ]
     },
     {
-        Abnormality: "?",
+        Abnormality: "Silent Girl",
         Floor: "General Works",
         EmoPage: [
             {
                 ID: "13",
-                Name: "?",
-                State: "Breakdown",
-                Level: "X",
-                Flavor: "?",
+                Name: "Hammer and Nail",
+                State: "Awakening",
+                Level: "II",
+                Flavor: "When she drives the nail with her hammer, the crack in the mind will grow too wide, and shatter completely.",
                 Desc: [
-                    "[Unknown]",
-                    "?",
+                    "[Single Ally]",
+                    "Upon a successful Pierce attack, inflict 1 'Nail' to the target.",
+                    "If a character with 'Nails' is hit by a Blunt attack, they take bonus damage equal to 5x the amount of Nails in them, then all stacks of Nails are removed.",
                 ]
             },
             {
                 ID: "14",
-                Name: "?",
+                Name: "Leer",
                 State: "Breakdown",
-                Level: "X",
-                Flavor: "?",
+                Level: "III",
+                Flavor: "The girl remains silent. She would simply glare at the core of one’s inner side with her deep eyes.",
                 Desc: [
-                    "[Unknown]",
-                    "?",
+                    "[Single Ally]",
+                    "Deal and take twice as much physical damage.",
                 ]
             },
             {
                 ID: "15",
-                Name: "?",
+                Name: "Guilt",
                 State: "Breakdown",
-                Level: "X",
-                Flavor: "?",
+                Level: "II",
+                Flavor: "However, when she met a person carrying ‘guilt’ or ‘fear’, the girl revealed the nail and hammer she had been hiding behind her back.",
                 Desc: [
-                    "[Unknown]",
-                    "?",
+                    "[Single Ally]",
+                    "Reduce incoming Stagger damage by 1-3.",
+                    "When hit, the attacker takes Stagger damage equal to the physical damage this character received.",
                 ]
             },
         ]

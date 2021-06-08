@@ -1,0 +1,132 @@
+@font-face {
+	font-family: Arita-buriM;
+	src: url(../../../fonts/Arita-buriM.otf);
+}
+
+$font-list: Arita-buriM, sans-serif;
+
+html {
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+@mixin DefaultStyle($special){
+	background-color: #362113;
+	border: 0.4vmin solid #83502e;
+	border-radius: 0.8vmin;
+
+	color: #CE8B54;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 2vmin;
+	letter-spacing: 0.2vmin;
+
+	transition: border-color 0.2s ease-in-out;
+
+	&:focus { border: 0.4vmin solid #ce8b54; outline: none; }
+
+	@if $special == "text" {
+		padding: 0 2vmin;
+	}
+
+	@if $special == "select" {
+		&option { background-color: #362113; color: #CE8B54; }
+	}
+
+	@if $special == "button" {
+		background-color: #362113;
+		padding: 0;
+		float: right;
+		
+		transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+		&:hover { background-color: #714b2c; }
+	}
+}
+
+#invitation {
+	text-align: center;
+	font-family: $font-list;
+
+	h1 { font-size: 10vmin; color: yellow; filter: blur(0.06vmin); 
+		letter-spacing: 1vmin; text-shadow: 0.3vmin 0.3vmin 1vmin #fcfc5e; 
+		font-weight: 600;
+	}
+
+	input[type=text] { @include DefaultStyle("text"); }
+
+	select { @include DefaultStyle("select"); }
+
+	#advancedSetting { @include DefaultStyle("button"); }
+
+	#SelectNoteTop {
+		display: grid;
+		grid-template-rows: 5vmin;
+		grid-template-columns: 50% 50%;
+		padding: 0 5% 0 5%;
+
+		row-gap: 5vmin;
+	}
+
+	#Note { 
+		place-self: center;
+
+		text-align: center; 
+		color: rgb(188, 188, 188);
+		font-weight: 900;
+		font-size:2.5vmin;
+	}
+
+	#InvitationListBoard {
+		width: 96%;
+		margin: auto;
+		margin-top: 2vw;
+		margin-bottom: 1vw;
+
+		#InvitationList {
+			list-style-type: none;
+			padding: 0 2% 0 2%;
+			display: grid;
+			grid-auto-rows: 10vw;
+
+			transition: all 0.2s ease-in-out;
+
+			column-gap: 0.8vw;
+
+			#InvitationBtn {
+				justify-self: stretch;
+				align-self: center;
+				margin: 0;
+				border: 0;
+				background-color: transparent;
+				background-image: linear-gradient(to right, rgba(57, 62, 1, 0.05), transparent, rgba(57, 62, 1, 0.2), transparent, rgba(57, 62, 1, 0.05));
+				
+				border-width: 0.4vw;
+				border-style: solid;
+				border-color: transparent;
+				border-image: linear-gradient(transparent, rgba(133, 107, 2, 0.2), transparent) 1 100%;
+
+				color: #CE8B54;
+				font-family: inherit;
+				font-weight: 500;
+				font-size: 1vw;
+
+				display: grid;
+				grid-template-rows: 6vw auto;
+
+				place-items: start center;
+
+				img {
+					place-self: center;
+					height: 5vw;
+				}
+			}
+
+			#InvitationBtn:hover {
+				background-color: rgba(110, 120, 0, 0.05);
+				transition: all 0.2s ease-in-out;
+			}
+		}
+	}
+}
+

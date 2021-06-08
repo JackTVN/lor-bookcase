@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
+import {Helmet} from "react-helmet";
+
 import SearchBar from '../single/SearchBar.js';
 import SelectBar from '../single/SelectBar.js';
 
@@ -27,12 +29,13 @@ class CombatPages extends React.Component {
 			"Pierre's Bistro", "Streetlight Office",
 			"Zwei Association South Section 6", "Stray Dogs", "Molar Office", 
 			"The Carnival", "Full-Stop Office", "Dawn Office", "Gaze Office", "Kurokumo Clan", "The Musicians of Bremen", "Wedge Office", "Love Town", 
-			"Rusted Chains", "Workshop-affiliated Fixers",
+			"Rusted Chains", "Workshop-affiliated Fixers", "Jeong's Office",
 			"Sweepers", "Shi Association South Section 2", "The 8 o'Clock Circus", "Puppets", "Index Proselytes", "Smiling Faces", "The Crying Children", "WARP Cleanup Crew",
 			"Seven Association", "Blade Lineage",
 			"The Thumb", "The Reverberation", "Liu Association South Section 2", "Cane Office",
 			"The Index", "The Red Mist", "Liu Association South Section 1", "R Corp",
 			"얀샋ㄷ요무", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah",
+			"Mirae Life Insurance", "Leaflet Workshop", "Night Awls", "The Udjat", "Bayard",
 			"Hana Association", "The Black Silence", "The Reverberation Ensemble", "Keter Realization", "The Reverberation Ensemble Distorted"],
 			faction: 'All',
 			loadLimit: 24,
@@ -81,11 +84,12 @@ class CombatPages extends React.Component {
 		let facMyth = ["Library", "Pierre's Bistro", "Streetlight Office"];
 		let facLegend = ["Zwei Association South Section 6", "Stray Dogs", "Molar Office"];
 		let facPlague = ["The Carnival", "Full-Stop Office", "Dawn Office", "Gaze Office", "Kurokumo Clan", "The Musicians of Bremen", "Wedge Office", "Love Town", 
-						"Rusted Chains", "Workshop-affiliated Fixers"];
+						"Rusted Chains", "Workshop-affiliated Fixers", "Jeong's Office"];
 		let facNightmare = ["Sweepers", "Shi Association South Section 2", "The 8 o'Clock Circus", "Puppets", "Index Proselytes", "Smiling Faces", "The Crying Children", 
 							"WARP Cleanup Crew", "Seven Association", "Blade Lineage"];
 		let facStar = ["The Thumb", "Argalia & The Churches of Gear", "Liu Association South Section 2", "Cane Office", "The Index", "The Red Mist", "Liu Association South Section 1",
-						"R Corp", "얀샋ㄷ요무", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Binah"];
+						"R Corp", "얀샋ㄷ요무", "The Purple Tear", "Xiao", "Dong-hwan the Grade 1 Fixer", "Mirae Life Insurance", "Leaflet Workshop", "Night Awls", "The Udjat", "Bayard", 
+						"Binah"];
 		let facImpuritas = ["Hana Association", "The Black Silence", "The Reverberation Ensemble", "Keter Realization", "The Reverberation Ensemble Distorted"];
 
 		let facNew = ["All"];
@@ -116,7 +120,8 @@ class CombatPages extends React.Component {
 		let i = 0;
 		
 		while (i < tempPages.length){
-			if ( (this.state.search != null && !tempPages[i].Name.toLowerCase().includes( this.state.search.toLowerCase() ) )
+			if ( (tempPages[i].EnemyOnly == "True")
+				 || (this.state.search != null && !tempPages[i].Name.toLowerCase().includes( this.state.search.toLowerCase() ) )
 				 || (this.state.level != "All" && tempPages[i].Level != this.state.level) 
 				 || (facChange != "All" && tempPages[i].Source != facChange)){
 					tempPages.splice(i, 1);
@@ -171,19 +176,27 @@ class CombatPages extends React.Component {
 						"Star of the City", "Impuritas Civitatis"]
 	return (
 		<div id="combatPages">
+			<Helmet>
+				<title>Lor Bookcase - Combat Pages</title>
+				<meta name="keywords" content="lor, library of ruina, lor wiki, library of ruina wiki, combat pages, pages, project moon, projectmoon" />
+			</Helmet>
+
 			<h1> Combat Pages </h1>
 
 			<div id= "searchHelp">
 				<SearchBar search={this.state.search} setSearch={this.handleChange} />
-				<SelectBar id="selectLevel" name="level" option={levelName} current={this.state.level} handleChange={this.handleChange}/>
-				<SelectBar id="selectFaction" name="faction" option={this.state.factionOption} current={this.state.faction} handleChange={this.handleChange}/>
-				<button id="advancedSetting">Advanced</button>
+				<div id="lowerRowGridSearchHelp">
+					<SelectBar id="selectLevel" name="level" option={levelName} current={this.state.level} handleChange={this.handleChange}/>
+					<SelectBar id="selectFaction" name="faction" option={this.state.factionOption} current={this.state.faction} handleChange={this.handleChange}/>
+					<button id="advancedSetting">Advanced</button>
+				</div>
 			</div>
 
-			<div id= "pageList" style={{ marginTop: "12vh" }}>
-				<div id="Note"> 
-					<p> Current Patch: 1.1.0.0b </p>
-				</div>
+			<div id="Note"> 
+				<p> Current Patch: 1.1.0.2a2 </p>
+			</div>
+
+			<div id= "pageList" style={{ marginTop: "2vh" }}>
 				<ul id="List">
 					<LoadPages pages={this.state.pages} limit={this.state.loadLimit}/>
 				</ul>

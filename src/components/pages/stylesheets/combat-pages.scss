@@ -6,7 +6,6 @@
 $font-list: Arita-buriM, sans-serif;
 
 html {
-	background-color: #362113;
 	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
 }
@@ -22,35 +21,22 @@ html {
 	font-size: 2vmin;
 	letter-spacing: 0.2vmin;
 
-	margin: 0.5% 0;
-
-	height: 5vmin;
-
 	transition: border-color 0.2s ease-in-out;
 
 	&:focus { border: 0.4vmin solid #ce8b54; outline: none; }
 
 	@if $special == "text" {
 		padding: 0 2vmin;
-		width: 97.4%;
 	}
 
 	@if $special == "select" {
-		display: inline;
-		float: left;
-		width: 25%;
-		margin-right: 0.5vw;
 		&option { background-color: #362113; color: #CE8B54; }
 	}
 
 	@if $special == "button" {
-		display: inline;
 		background-color: #362113;
 		padding: 0;
-
 		float: right;
-
-		width: 30%;
 		
 		transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
@@ -64,7 +50,7 @@ html {
 
 	h1 { font-size: 10vmin; color: yellow; filter: blur(0.06vmin); 
 		letter-spacing: 1vmin; text-shadow: 0.3vmin 0.3vmin 1vmin #fcfc5e; 
-		font-weight: 600
+		font-weight: 600;
 	}
 
 	input[type=text] { @include DefaultStyle("text"); }
@@ -74,18 +60,28 @@ html {
 	#advancedSetting { @include DefaultStyle("button"); }
 
 	#searchHelp {
+		display: grid;
+		grid-template-rows: 5vmin 5vmin;
 		padding: 0 5% 0 5%;
+
+		row-gap: 5vmin;
+
+		#lowerRowGridSearchHelp {
+			display: grid;
+			grid-template-columns: 25% 25% auto;
+			column-gap: 5vmin;
+		}
 	}
 
 	#Note { 
 		text-align: center; 
-		color: gray;
+		color: rgb(188, 188, 188);
 		font-weight: 900;
 		font-size:2.5vmin;
 	}
 
 	#pageList {
-		margin: 1%;
+		margin: 0.5%;
 		text-align: left;
 	
 		#List { 

@@ -1,0 +1,32 @@
+@font-face {
+	font-family: Arita-buriM;
+	src: url(../../fonts/Arita-buriM.otf);
+}
+
+.Header > nav {
+	width: 100%;
+	background-color: transparent;
+	background-image: linear-gradient(rgb(47, 39, 15) 50%, rgba(52, 44, 19, 0.5));
+	display: flex;
+	
+	justify-content: space-around;
+}
+
+.Header > nav > a {
+	width: 20%;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0px 0px 0.5vw rgb(197, 197, 85);
+	font-family: Arita-buriM, sans-serif;
+	font-size: 20px;
+	font-size: 1.5vmax;
+	font-weight: 900;
+	color: #dcc658;
+	padding: 1vw 1vw;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.Header > nav > a:hover {
+	background-color: #111;
+	color: #e8c61d;
+}

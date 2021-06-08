@@ -79,7 +79,7 @@ export function LoadEmoPages(props) {
 
 	return(
 		props.abnormality.map(abno => 
-			<li key={abno.Abnormality} id="abno" style={{ backgroundImage: "linear-gradient( rgba(" + props.color + ", 0.3) 30%, transparent)", borderColor: "rgb(" + props.color + ")" }}>
+			<li key={abno.Abnormality} id="abno" style={{ backgroundImage: "linear-gradient( rgba(" + props.color + ", 0.15) 40%, transparent)", borderColor: "rgb(" + props.color + ")" }}>
 				<div id="abnoName"> {abno.Abnormality} </div>
 				<ul id="abnormality">
 					<li key={abno.EmoPage[0].ID} style={{ fontSize: font, width: width, minWidth: width, height: height}}> <EmoPage info={abno.EmoPage[0]}/> </li>

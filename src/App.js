@@ -6,9 +6,11 @@ import './App.scss';
 import Header from './components/single/Header.js';
 
 import Home from './components/pages/home.js';
+import Invitation from './components/pages/invitation.js';
 import CombatPages from './components/pages/combat-pages.js';
 import Floors from './components/pages/floors.js';
 import KeyPages from './components/pages/key-pages.js';
+import About from './components/pages/about.js';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
       <div className="App">
         <Header />
         <Route exact path="/" component={Home} />
+        <Route exact path="/invitation" component={Invitation} />
         <Route exact path="/combat-pages" component={CombatPages} />
         <Route exact path="/floors" component={Floors} />
         <Route exact path="/key-pages" component={KeyPages} />
+        <Route exact path="/about" component={About} />
       </div>
     </Router>
   );
