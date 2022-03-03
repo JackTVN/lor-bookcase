@@ -373,9 +373,8 @@
     
                     #slashRes, #pierceRes, #bluntRes {
                         #resText {
-                            place-self: center;
+                            place-self: center start;
                             text-shadow: 0.01vw 0.01vw 0.04vw #b8b3b3;
-                            margin: 0;
                         }
                     }
                 }

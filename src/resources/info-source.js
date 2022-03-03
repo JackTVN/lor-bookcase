@@ -21853,5 +21853,4 @@ export const cardList = [
 			},
 		]
 	},
-
 ]

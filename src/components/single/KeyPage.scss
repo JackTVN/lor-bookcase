@@ -96,7 +96,7 @@
                 display: grid;
                 grid-template-columns: 40% auto;
 
-                margin: 0 10% 0 10%;
+                margin: 0 4% 0 4%;
             }
 
             #hpIcon, #stgIcon{
@@ -138,23 +138,23 @@
 
                 #slashRes, #pierceRes, #bluntRes {
                     display: grid;
-                    grid-template-columns: 40% auto;
+                    grid-template-columns: 32% auto;
 
-                    margin: 0 10% 0 4%;
+                    margin: 0;
 
                     #resIcon {
                         place-self: center;
-                        max-height: 55%;
-                        max-width: 55%;
+                        max-height: 64%;
+                        max-width: 64%;
                     }
 
                     #resText {
+                        place-self: center start;
                         color: rgb(198, 197, 197);
                         text-shadow: 0.05vw 0.05vw 0.2vw #b8b3b3;
+                        font-size: 110%;
                         letter-spacing: 0.03vw;
-
                         margin: 0;
-                        margin-top: 16%;
                     }
                 }
             }
@@ -164,7 +164,7 @@
     #passive {
         --thumb-visible: rgb(255, 255, 255);
         color: rgb(198, 197, 197);
-        text-shadow: 0.05vw 0.05vw 0.2vw #b8b3b3;
+        text-shadow: 0.02vw 0.02vw 0.1vw #b8b3b3;
         letter-spacing: 0.03vw;
         display: grid;
         overflow: auto;
@@ -177,7 +177,7 @@
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
 
-        line-height: 120%;
+        line-height: 130%;
             
         font-size: 80%;
         letter-spacing: 0.06vw;

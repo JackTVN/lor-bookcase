@@ -15,13 +15,15 @@ function Home() {
 		</Helmet>
 
 		<h1> Welcome to LoR Bookcase, a source of info related to Library of Ruina, a game developed and published by Project Moon.</h1>
-		<div>
-			yea ngl I haven't make the "below" part I promise to make this home page better please don't hit me
-		</div>
-		<div>
+		<div id="navHelp">
 			Navigate to the info you need using the header above
 		</div>
-		<a href="https://twitter.com/ProjMoonStudio"> <img src={Icons.Twitter} style={{ width: "3%", marginTop: "10%"}} /> </a>
+		<div id="pmLink">
+			<a href="https://twitter.com/ProjMoonStudio"> <img src={Icons.Twitter} style={{ width: "30%"}} /> </a>
+			<a href="https://www.youtube.com/channel/UCpqyr6h4RCXCEswHlkSjykA"> <img src={Icons.Youtube} style={{ width: "30%"}} /> </a>
+			<a href="https://www.twitch.tv/projectmoonofficial"> <img src={Icons.Twitch} style={{ width: "30%"}} /> </a>
+		</div>
+		
 	</div>
 	);
 }

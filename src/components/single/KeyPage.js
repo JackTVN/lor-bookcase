@@ -8,6 +8,9 @@ import { PassiveList } from "../../resources/info-passive.js";
 
 import './KeyPage.scss'
 
+let resList = ["Fatal", "Weak", "Normal", "Endure", "Ineffective"];
+let resListAlt = ["Vulnerable", "Weak", "Normal", "Endure", "Resist"];
+
 function LoadPassiveAbilities(props) {
 	return (
 		props.list.map((text, index) =>
@@ -64,8 +67,8 @@ class Passive extends React.Component {
 		return (
 			passiveInfo.map(passive =>
 				<li id="passiveIndi" key={passive.ID} style={{ borderImage: "linear-gradient(to right, rgb(" + passive.Color + ") 80%, transparent) 30" , backgroundImage: "linear-gradient(to bottom right, rgba(" + passive.Color + ", 0.2), 1%, transparent)" }}>
-					<p id="passiveCost" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.05vw 0.05vw 0.2vw " + "rgb(" + passive.Color + ")" }}> {passive.Cost} </p>
-					<p id="passiveName" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.05vw 0.05vw 0.2vw " + "rgb(" + passive.Color + ")" }}> {passive.Name} </p>
+					<p id="passiveCost" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.03vw 0.03vw 0.12vw " + "rgb(" + passive.Color + ")" }}> {passive.Cost} </p>
+					<p id="passiveName" style={{ color: "rgb(" + passive.Color + ")", textShadow: "0.03vw 0.03vw 0.12vw " + "rgb(" + passive.Color + ")" }}> {passive.Name} </p>
 					<ul id="passiveAbilitiesList">
 						<LoadPassiveAbilities list={passive.Desc} />
 					</ul>
@@ -134,7 +137,6 @@ export class KeyPage extends React.Component {
 
 	render() {
 		let nameColor = this.nColor();
-		let resList = ["Fatal", "Weak", "Normal", "Endure", "Ineffective"];
 
 		if (this.state.current == "stat") {
 			return (
@@ -163,29 +165,29 @@ export class KeyPage extends React.Component {
 						<div id="res" style={{ borderImage: "linear-gradient(to bottom, " + nameColor + " 80%, transparent) 30" }}>
 							<div id="hpRes">
 								<div id="slashRes">
-									<img id="resIcon" src={Icons.SlashDmgRes[this.props.info.SResist[0] + 2]} alt="slashHPResIcon" />
+									<img id="resIcon" src={Icons["SlashDmg" + resListAlt[this.props.info.SResist[0] + 2]]} alt="slashHPResIcon" />
 									<p id="resText"> {resList[this.props.info.SResist[0] + 2]} </p>
 								</div>
 								<div id="pierceRes">
-									<img id="resIcon" src={Icons.PierceDmgRes[this.props.info.PResist[0] + 2]} alt="pierceHPResIcon" />
+									<img id="resIcon" src={Icons["PierceDmg" + resListAlt[this.props.info.PResist[0] + 2]]} alt="pierceHPResIcon" />
 									<p id="resText"> {resList[this.props.info.PResist[0] + 2]} </p>
 								</div>
 								<div id="bluntRes">
-									<img id="resIcon" src={Icons.BluntDmgRes[this.props.info.BResist[0] + 2]} alt="bluntHPResIcon" />
+									<img id="resIcon" src={Icons["BluntDmg" + resListAlt[this.props.info.BResist[0] + 2]]} alt="bluntHPResIcon" />
 									<p id="resText"> {resList[this.props.info.BResist[0] + 2]} </p>
 								</div>
 							</div>
 							<div id="stgRes">
 								<div id="slashRes">
-									<img id="resIcon" src={Icons.SlashStgRes[this.props.info.SResist[1] + 2]} alt="slashStgResIcon" />
+									<img id="resIcon" src={Icons["SlashStg" + resListAlt[this.props.info.SResist[1] + 2]]} alt="slashStgResIcon" />
 									<p id="resText"> {resList[this.props.info.SResist[1] + 2]} </p>
 								</div>
 								<div id="pierceRes">
-									<img id="resIcon" src={Icons.PierceStgRes[this.props.info.PResist[1] + 2]} alt="pierceStgResIcon" />
+									<img id="resIcon" src={Icons["PierceStg" + resListAlt[this.props.info.PResist[1] + 2]]} alt="pierceStgResIcon" />
 									<p id="resText"> {resList[this.props.info.PResist[1] + 2]} </p>
 								</div>
 								<div id="bluntRes">
-									<img id="resIcon" src={Icons.BluntStgRes[this.props.info.BResist[1] + 2]} alt="bluntStgResIcon" />
+									<img id="resIcon" src={Icons["BluntStg" + resListAlt[this.props.info.BResist[1] + 2]]} alt="bluntStgResIcon" />
 									<p id="resText"> {resList[this.props.info.BResist[1] + 2]} </p>
 								</div>
 							</div>

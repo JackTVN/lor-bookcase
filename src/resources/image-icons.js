@@ -21,37 +21,37 @@ import hpIcon from './icons/key-pages-icons/HPIcon.png';
 import stgIcon from './icons/key-pages-icons/StaggerIcon.png';
 import spdIcon from './icons/key-pages-icons/SpeedIcon.png';
 
-import slashDmgVulnerable from './icons/key-pages-icons/SlashVulnerableIcon.png';
-import slashDmgWeak from './icons/key-pages-icons/SlashWeakIcon.png';
-import slashDmgNormal from './icons/key-pages-icons/SlashNormalIcon.png';
-import slashDmgEndure from './icons/key-pages-icons/SlashEndureIcon.png';
-import slashDmgResist from './icons/key-pages-icons/SlashResistIcon.png';
-import pierceDmgVulnerable from './icons/key-pages-icons/PierceVulnerableIcon.png';
-import pierceDmgWeak from './icons/key-pages-icons/PierceWeakIcon.png';
-import pierceDmgNormal from './icons/key-pages-icons/PierceNormalIcon.png';
-import pierceDmgEndure from './icons/key-pages-icons/PierceEndureIcon.png';
-import pierceDmgResist from './icons/key-pages-icons/PierceResistIcon.png';
-import bluntDmgVulnerable from './icons/key-pages-icons/BluntVulnerableIcon.png';
-import bluntDmgWeak from './icons/key-pages-icons/BluntWeakIcon.png';
-import bluntDmgNormal from './icons/key-pages-icons/BluntNormalIcon.png';
-import bluntDmgEndure from './icons/key-pages-icons/BluntEndureIcon.png';
-import bluntDmgResist from './icons/key-pages-icons/BluntResistIcon.png';
+import slashDmgVulnerable from './icons/key-pages-icons/SlashVulnerableIcon (1).png';
+import slashDmgWeak from './icons/key-pages-icons/SlashWeakIcon (1).png';
+import slashDmgNormal from './icons/key-pages-icons/SlashNormalIcon (1).png';
+import slashDmgEndure from './icons/key-pages-icons/SlashEndureIcon (1).png';
+import slashDmgResist from './icons/key-pages-icons/SlashResistIcon (1).png';
+import pierceDmgVulnerable from './icons/key-pages-icons/PierceVulnerableIcon (1).png';
+import pierceDmgWeak from './icons/key-pages-icons/PierceWeakIcon (1).png';
+import pierceDmgNormal from './icons/key-pages-icons/PierceNormalIcon (1).png';
+import pierceDmgEndure from './icons/key-pages-icons/PierceEndureIcon (1).png';
+import pierceDmgResist from './icons/key-pages-icons/PierceResistIcon (1).png';
+import bluntDmgVulnerable from './icons/key-pages-icons/BluntVulnerableIcon (1).png';
+import bluntDmgWeak from './icons/key-pages-icons/BluntWeakIcon (1).png';
+import bluntDmgNormal from './icons/key-pages-icons/BluntNormalIcon (1).png';
+import bluntDmgEndure from './icons/key-pages-icons/BluntEndureIcon (1).png';
+import bluntDmgResist from './icons/key-pages-icons/BluntResistIcon (1).png';
 
-import slashStgVulnerable from './icons/key-pages-icons/SlashStgVulnerableIcon.png';
-import slashStgWeak from './icons/key-pages-icons/SlashStgWeakIcon.png';
-import slashStgNormal from './icons/key-pages-icons/SlashStgNormalIcon.png';
-import slashStgEndure from './icons/key-pages-icons/SlashStgEndureIcon.png';
-import slashStgResist from './icons/key-pages-icons/SlashStgResistIcon.png';
-import pierceStgVulnerable from './icons/key-pages-icons/PierceStgVulnerableIcon.png';
-import pierceStgWeak from './icons/key-pages-icons/PierceStgWeakIcon.png';
-import pierceStgNormal from './icons/key-pages-icons/PierceStgNormalIcon.png';
-import pierceStgEndure from './icons/key-pages-icons/PierceStgEndureIcon.png';
-import pierceStgResist from './icons/key-pages-icons/PierceStgResistIcon.png';
-import bluntStgVulnerable from './icons/key-pages-icons/BluntStgVulnerableIcon.png';
-import bluntStgWeak from './icons/key-pages-icons/BluntStgWeakIcon.png';
-import bluntStgNormal from './icons/key-pages-icons/BluntStgNormalIcon.png';
-import bluntStgEndure from './icons/key-pages-icons/BluntStgEndureIcon.png';
-import bluntStgResist from './icons/key-pages-icons/BluntStgResistIcon.png';
+import slashStgVulnerable from './icons/key-pages-icons/SlashStgVulnerableIcon (1).png';
+import slashStgWeak from './icons/key-pages-icons/SlashStgWeakIcon (1).png';
+import slashStgNormal from './icons/key-pages-icons/SlashStgNormalIcon (1).png';
+import slashStgEndure from './icons/key-pages-icons/SlashStgEndureIcon (1).png';
+import slashStgResist from './icons/key-pages-icons/SlashStgResistIcon (1).png';
+import pierceStgVulnerable from './icons/key-pages-icons/PierceStgVulnerableIcon (1).png';
+import pierceStgWeak from './icons/key-pages-icons/PierceStgWeakIcon (1).png';
+import pierceStgNormal from './icons/key-pages-icons/PierceStgNormalIcon (1).png';
+import pierceStgEndure from './icons/key-pages-icons/PierceStgEndureIcon (1).png';
+import pierceStgResist from './icons/key-pages-icons/PierceStgResistIcon (1).png';
+import bluntStgVulnerable from './icons/key-pages-icons/BluntStgVulnerableIcon (1).png';
+import bluntStgWeak from './icons/key-pages-icons/BluntStgWeakIcon (1).png';
+import bluntStgNormal from './icons/key-pages-icons/BluntStgNormalIcon (1).png';
+import bluntStgEndure from './icons/key-pages-icons/BluntStgEndureIcon (1).png';
+import bluntStgResist from './icons/key-pages-icons/BluntStgResistIcon (1).png';
 
 import Rats from './icons/invitation-icons/Rats.png'
 import YunsOffice from './icons/invitation-icons/YunsOffice.png'
@@ -105,6 +105,8 @@ import KeterFloor from  './icons/floor-icons/keter.png'
 import SwapIcon from './other/swap.png';
 import CloseIcon from './other/close.png';
 import TwitterIcon from './other/twitterIcon.png';
+import YoutubeIcon from './other/youtubeIcon.png';
+import TwitchIcon from './other/twitchIcon.png';
 import ReveranceIcon from './other/fuck.png';
 
 export const Icons = {
@@ -123,13 +125,50 @@ export const Icons = {
 	Stg: stgIcon,
 	Spd: spdIcon,
 
-	SlashDmgRes: [slashDmgVulnerable, slashDmgWeak, slashDmgNormal, slashDmgEndure, slashDmgResist],
-	PierceDmgRes: [pierceDmgVulnerable, pierceDmgWeak, pierceDmgNormal, pierceDmgEndure, pierceDmgResist],
-	BluntDmgRes: [bluntDmgVulnerable, bluntDmgWeak, bluntDmgNormal, bluntDmgEndure, bluntDmgResist],
+	SlashDmgVulnerable: slashDmgVulnerable,
+	SlashDmgWeak: slashDmgWeak,
+	SlashDmgNormal: slashDmgNormal,
+	SlashDmgEndure: slashDmgEndure,
+	SlashDmgResist: slashDmgResist,
 
-	SlashStgRes: [slashStgVulnerable, slashStgWeak, slashStgNormal, slashStgEndure, slashStgResist],
-	PierceStgRes: [pierceStgVulnerable, pierceStgWeak, pierceStgNormal, pierceStgEndure, pierceStgResist],
-	BluntStgRes: [bluntStgVulnerable, bluntStgWeak, bluntStgNormal, bluntStgEndure, bluntStgResist],
+	PierceDmgVulnerable: pierceDmgVulnerable,
+	PierceDmgWeak: pierceDmgWeak,
+	PierceDmgNormal: pierceDmgNormal,
+	PierceDmgEndure: pierceDmgEndure,
+	PierceDmgResist: pierceDmgResist,
+
+	BluntDmgVulnerable: bluntDmgVulnerable,
+	BluntDmgWeak: bluntDmgWeak,
+	BluntDmgNormal: bluntDmgNormal,
+	BluntDmgEndure: bluntDmgEndure,
+	BluntDmgResist: bluntDmgResist,
+
+	SlashStgVulnerable: slashStgVulnerable,
+	SlashStgWeak: slashStgWeak,
+	SlashStgNormal: slashStgNormal,
+	SlashStgEndure: slashStgEndure,
+	SlashStgResist: slashStgResist,
+
+	PierceStgVulnerable: pierceStgVulnerable,
+	PierceStgWeak: pierceStgWeak,
+	PierceStgNormal: pierceStgNormal,
+	PierceStgEndure: pierceStgEndure,
+	PierceStgResist: pierceStgResist,
+
+	BluntStgVulnerable: bluntStgVulnerable,
+	BluntStgWeak: bluntStgWeak,
+	BluntStgNormal: bluntStgNormal,
+	BluntStgEndure: bluntStgEndure,
+	BluntStgResist: bluntStgResist,
+
+
+	//SlashDmgRes: [slashDmgVulnerable, slashDmgWeak, slashDmgNormal, slashDmgEndure, slashDmgResist],
+	//PierceDmgRes: [pierceDmgVulnerable, pierceDmgWeak, pierceDmgNormal, pierceDmgEndure, pierceDmgResist],
+	//BluntDmgRes: [bluntDmgVulnerable, bluntDmgWeak, bluntDmgNormal, bluntDmgEndure, bluntDmgResist],
+
+	//SlashStgRes: [slashStgVulnerable, slashStgWeak, slashStgNormal, slashStgEndure, slashStgResist],
+	//PierceStgRes: [pierceStgVulnerable, pierceStgWeak, pierceStgNormal, pierceStgEndure, pierceStgResist],
+	//BluntStgRes: [bluntStgVulnerable, bluntStgWeak, bluntStgNormal, bluntStgEndure, bluntStgResist],
 
 	Rats: Rats,
 	YunsOffice: YunsOffice,
@@ -211,6 +250,8 @@ export const Icons = {
 	Swap: SwapIcon,
 	Close: CloseIcon,
 	Twitter: TwitterIcon,
+	Youtube: YoutubeIcon,
+	Twitch: TwitchIcon,
 	Bug: ReveranceIcon,
 }
 

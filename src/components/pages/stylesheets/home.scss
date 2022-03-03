@@ -14,4 +14,27 @@ html {
     text-align: center;
 	font-family: $font-list;
     padding: 0 5% 0 5%;
+
+	h1 {
+		font-size: 5vmin; color: yellow; filter: blur(0.02vmin); 
+		letter-spacing: 0.3vmin; text-shadow: 0.1vmin 0.1vmin 0.4vmin #fcfc5e; 
+		font-weight: 600;
+	}
+
+	#navHelp {
+		font-size: 2.8vmin; color: #dcc658; filter: blur(0.01vmin); 
+		letter-spacing: 0.2vmin; text-shadow: 0.1vmin 0.1vmin 0.2vmin rgb(197, 197, 85); 
+		font-weight: 600;
+	}
+
+	#pmLink {
+		margin: auto;
+		margin-top:3vw;
+		justify-content: center;
+		width: 30%;
+		display: grid;
+		grid-auto-flow: column;
+        grid-auto-columns: auto;
+		place-items: center;
+	}
 }
